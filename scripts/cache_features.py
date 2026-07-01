@@ -14,7 +14,7 @@ def main():
     parser.add_argument("--jsonl-path", required=True, help="Path to labeled training JSONL")
     parser.add_argument("--images-dir", required=True, help="Path to images directory")
     parser.add_argument("--output-cache-dir", required=True, help="Directory to save HDF5 features")
-    parser.add_argument("--model-name", default="Qwen/Qwen2.5-VL-7B-Instruct", help="Huggingface VLM model name")
+    parser.add_argument("--model-name", default="Qwen/Qwen2.5-VL-3B-Instruct", help="Huggingface VLM model name")
     parser.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu", help="Device to run extraction")
     args = parser.parse_args()
 

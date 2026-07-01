@@ -1,7 +1,7 @@
 # SHROOM-Vision 2026 Multitask Probing Model Configuration
 
 # Model Settings
-d_hidden: 3584       # Qwen2.5-VL hidden dimension
+d_hidden: 2048       # Qwen2.5-VL hidden dimension
 d_vision: 1280       # Qwen2.5-VL ViT vision feature dimension
 d_grounding: 16      # Output feature dimension of pluggable grounding module
 encoder_dim: 512     # Projected dimension for Shared Feature Encoder

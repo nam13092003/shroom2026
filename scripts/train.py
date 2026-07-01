@@ -32,7 +32,7 @@ def main(cfg: DictConfig):
     print("Loading tokenizer...")
     # Using Qwen2.5-VL tokenizer
     tokenizer = AutoTokenizer.from_pretrained(
-        "Qwen/Qwen2.5-VL-7B-Instruct",
+        "Qwen/Qwen2.5-VL-3B-Instruct",
         trust_remote_code=True
     )
     # Ensure pad token is set

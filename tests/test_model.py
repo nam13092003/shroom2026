@@ -149,6 +149,9 @@ def test_multitask_model_and_losses():
     # Verify that gradients exist for model parameters
     for name, param in model.named_parameters():
         if param.requires_grad:
+            # Skip checking gradient for temperature scale if calibration network is used instead
+            if name == "calibration_head.temperature" and model.calibration_head.use_calibration_network:
+                continue
             assert param.grad is not None, f"Parameter {name} does not have gradients!"
             
 def test_individual_losses():
