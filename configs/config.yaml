@@ -9,10 +9,10 @@ num_encoder_layers: 1 # Number of transformer layers in Shared Feature Encoder
 use_calibration_network: true # If true, learns mapping from logits; if false, uses temp scaling
 
 # Dataset Settings
-train_jsonl_path: "c:/lab/shroom2026/data/distrib/shroom-vision.train.en.labeled.jsonl"
-val_jsonl_path: "c:/lab/shroom2026/data/distrib/shroom-vision.train.en.labeled.jsonl"
-images_dir: "c:/lab/shroom2026/data"
-cache_dir: "c:/lab/shroom2026/data/cache"
+train_jsonl_path: "data/distrib/shroom-vision.train.en.labeled.jsonl"
+val_jsonl_path: "data/distrib/shroom-vision.train.en.labeled.jsonl"
+images_dir: "data"
+cache_dir: "data/cache"
 max_length: 1024
 batch_size: 8
 num_workers: 2
@@ -34,6 +34,6 @@ precision: "bf16"    # "bf16", "16-mixed", "32"
 accumulate_grad_batches: 1
 gradient_clip_val: 1.0
 early_stopping_patience: 3
-checkpoint_dir: "c:/lab/shroom2026/checkpoints"
-log_dir: "c:/lab/shroom2026/logs"
+checkpoint_dir: "checkpoints"
+log_dir: "logs"
 seed: 42

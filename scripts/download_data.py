@@ -45,7 +45,9 @@ def extract_tar(tar_path, extract_to):
     print("Extraction complete.")
 
 def main():
-    data_dir = "c:/lab/shroom2026/data"
+    # Dynamically locate the data directory relative to repository root
+    base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+    data_dir = os.path.join(base_dir, "data")
     os.makedirs(data_dir, exist_ok=True)
     
     # Download and extract annotations
