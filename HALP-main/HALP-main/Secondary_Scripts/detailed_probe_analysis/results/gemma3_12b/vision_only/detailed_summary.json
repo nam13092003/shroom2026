@@ -1,0 +1,15 @@
+{
+  "probe_name": "Gemma3-12B/vision_only",
+  "model": "Gemma3-12B",
+  "probe_dir": "vision_only",
+  "embedding_type": "vision_only_representation",
+  "layer_name": null,
+  "overall_auroc": 0.673587807606264,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201432"
+}

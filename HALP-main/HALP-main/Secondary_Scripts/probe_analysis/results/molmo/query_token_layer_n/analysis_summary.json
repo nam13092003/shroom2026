@@ -1,0 +1,9 @@
+{
+  "model_name": "Molmo-V1",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_31",
+  "probe_dir": "query_token_layer_n",
+  "overall_auroc": 0.9193124158152854,
+  "test_samples": 2000,
+  "timestamp": "20251005_161443"
+}

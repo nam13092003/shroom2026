@@ -1,0 +1,39 @@
+# SHROOM-Vision 2026 Multitask Probing Model Configuration
+
+# Model Settings
+d_hidden: 3584       # Qwen2.5-VL hidden dimension
+d_vision: 1280       # Qwen2.5-VL ViT vision feature dimension
+d_grounding: 16      # Output feature dimension of pluggable grounding module
+encoder_dim: 512     # Projected dimension for Shared Feature Encoder
+num_encoder_layers: 1 # Number of transformer layers in Shared Feature Encoder
+use_calibration_network: true # If true, learns mapping from logits; if false, uses temp scaling
+
+# Dataset Settings
+train_jsonl_path: "c:/lab/shroom2026/data/distrib/shroom-vision.train.en.labeled.jsonl"
+val_jsonl_path: "c:/lab/shroom2026/data/distrib/shroom-vision.train.en.labeled.jsonl"
+images_dir: "c:/lab/shroom2026/data"
+cache_dir: "c:/lab/shroom2026/data/cache"
+max_length: 1024
+batch_size: 8
+num_workers: 2
+
+# Loss Weights
+w_seq_risk: 1.0
+w_token_risk: 1.0
+w_bio_span: 2.0
+w_category: 1.5
+w_calib: 1.5
+
+# Training Hyperparameters
+learning_rate: 1e-4
+weight_decay: 1e-2
+max_epochs: 10
+devices: 1           # Number of GPUs/Devices (e.g. DDP)
+accelerator: "gpu"   # "gpu", "cpu", "auto"
+precision: "bf16"    # "bf16", "16-mixed", "32"
+accumulate_grad_batches: 1
+gradient_clip_val: 1.0
+early_stopping_patience: 3
+checkpoint_dir: "c:/lab/shroom2026/checkpoints"
+log_dir: "c:/lab/shroom2026/logs"
+seed: 42

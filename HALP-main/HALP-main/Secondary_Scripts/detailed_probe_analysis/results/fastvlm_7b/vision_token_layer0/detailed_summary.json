@@ -1,0 +1,15 @@
+{
+  "probe_name": "FastVLM-7B/vision_token_layer0",
+  "model": "FastVLM-7B",
+  "probe_dir": "vision_token_layer0",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_0",
+  "overall_auroc": 0.6934650829021415,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201527"
+}

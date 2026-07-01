@@ -1,0 +1,15 @@
+{
+  "probe_name": "Molmo-V1/query_token_layer_n_4",
+  "model": "Molmo-V1",
+  "probe_dir": "query_token_layer_n_4",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_8",
+  "overall_auroc": 0.8587961379414465,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201701"
+}

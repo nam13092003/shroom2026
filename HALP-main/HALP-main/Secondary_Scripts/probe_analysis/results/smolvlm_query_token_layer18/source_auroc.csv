@@ -1,0 +1,7 @@
+source_dataset,num_samples,num_hallucination,num_no_hallucination,auroc,note
+hallusionbench,123,53,70,0.6335579514824798,
+amber,786,117,669,0.5601101273747013,
+mme,176,9,167,0.5306054557551564,
+pope,242,19,223,0.485367004956337,
+haloquest,569,0,569,,Single class only
+mathvista,104,0,104,,Single class only

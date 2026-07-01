@@ -1,0 +1,15 @@
+{
+  "probe_name": "Llama-3.2-11B/query_token_layer10",
+  "model": "Llama-3.2-11B",
+  "probe_dir": "query_token_layer10",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_10",
+  "overall_auroc": 0.8301403688026079,
+  "test_samples": 1954,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_232448"
+}

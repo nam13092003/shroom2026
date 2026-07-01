@@ -1,0 +1,15 @@
+{
+  "probe_name": "Gemma3-12B/query_token_layer_n_2",
+  "model": "Gemma3-12B",
+  "probe_dir": "query_token_layer_n_2",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_24",
+  "overall_auroc": 0.9247287999662319,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201424"
+}

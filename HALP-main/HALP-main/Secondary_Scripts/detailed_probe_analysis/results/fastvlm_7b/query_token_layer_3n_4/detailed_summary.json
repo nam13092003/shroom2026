@@ -1,0 +1,15 @@
+{
+  "probe_name": "FastVLM-7B/query_token_layer_3n_4",
+  "model": "FastVLM-7B",
+  "probe_dir": "query_token_layer_3n_4",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_21",
+  "overall_auroc": 0.6475148241870302,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201505"
+}

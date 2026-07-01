@@ -1,0 +1,5 @@
+type,num_samples,num_hallucination,num_no_hallucination,auroc,note
+Object-Related,691,41,650,0.972607879924953,
+Other,639,62,577,0.8934142114384749,
+Attribute-Related,323,15,308,0.8694805194805194,
+Relationship,347,3,344,0.35077519379844957,

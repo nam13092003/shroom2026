@@ -1,0 +1,1022 @@
+================================================================================
+AMBER DATASET - GENERAL QA
+================================================================================
+
+Total General QA questions from Amber: 112
+Unique images: 112
+
+================================================================================
+IMAGES WITH QUESTIONS
+================================================================================
+
+1. **Image:** `AMBER_100.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, sea, beach, person, child
+      Question ID: question_comb_5595
+
+
+2. **Image:** `AMBER_1003.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, person, watermelon
+      Question ID: question_comb_3138
+
+
+3. **Image:** `AMBER_102.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, sea, flag, person, beach, surfboard, sign
+      Question ID: question_comb_4628
+
+
+4. **Image:** `AMBER_103.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, sea, person, chair, beach
+      Question ID: question_comb_4556
+
+
+5. **Image:** `AMBER_104.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: man, grass, court, football
+      Question ID: question_comb_4940
+
+
+6. **Image:** `AMBER_108.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sea, beach, man, bird
+      Question ID: question_comb_1277
+
+
+7. **Image:** `AMBER_114.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: woman, beer, beach, sea, necklace, bracelet, bottle
+      Question ID: question_comb_607
+
+
+8. **Image:** `AMBER_115.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sea, woman, surfboard, beach
+      Question ID: question_comb_8863
+
+
+9. **Image:** `AMBER_120.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: woman, microphone, support, stage
+      Question ID: question_comb_605
+
+
+10. **Image:** `AMBER_136.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: desert, sky, person, mountain
+      Question ID: question_comb_9522
+
+
+11. **Image:** `AMBER_15.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: desert, sky, cloud, hat, skate, man, mountain
+      Question ID: question_comb_6536
+
+
+12. **Image:** `AMBER_150.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: volleyball, beach
+      Question ID: question_comb_2923
+
+
+13. **Image:** `AMBER_170.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: chicken, grass
+      Question ID: question_comb_3167
+
+
+14. **Image:** `AMBER_174.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: person, sea, sky, beach, surfboard
+      Question ID: question_comb_1120
+
+
+15. **Image:** `AMBER_178.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: cat, bath, bucket, tap, floor, cable, water, wall
+      Question ID: question_comb_8333
+
+
+16. **Image:** `AMBER_20.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, sea, woman, beach, hat
+      Question ID: question_comb_2103
+
+
+17. **Image:** `AMBER_201.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: ship, beach, sea, mountain, sky, cloud, island
+      Question ID: question_comb_2343
+
+
+18. **Image:** `AMBER_211.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: truck, woman, kite, beach, sea, sky, chair, glass, rack
+      Question ID: question_comb_6297
+
+
+19. **Image:** `AMBER_215.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: tree, grass, elephant, sky
+      Question ID: question_comb_8483
+
+
+20. **Image:** `AMBER_218.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sign, road, car, forest, sky, grass, fence
+      Question ID: question_comb_2578
+
+
+21. **Image:** `AMBER_219.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: table, vase, flower, glass
+      Question ID: question_comb_637
+
+
+22. **Image:** `AMBER_222.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: toilet, water, can, floor
+      Question ID: question_comb_5087
+
+
+23. **Image:** `AMBER_246.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: man, football, tree, house, grass, sky, wire, court, glove
+      Question ID: question_comb_8405
+
+
+24. **Image:** `AMBER_248.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: forest, bridge, train, river, sign, pier, sky, snow, ground
+      Question ID: question_comb_7527
+
+
+25. **Image:** `AMBER_252.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: person, lounge, umbrella, beach, sea, sky, rock, waterfront, bag
+      Question ID: question_comb_5038
+
+
+26. **Image:** `AMBER_264.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: bird, beach, sea
+      Question ID: question_comb_4682
+
+
+27. **Image:** `AMBER_291.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, grass, mountain, ground, sheep, fence, road
+      Question ID: question_comb_6586
+
+
+28. **Image:** `AMBER_294.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: woman, laptop, quilt, bed
+      Question ID: question_comb_373
+
+
+29. **Image:** `AMBER_300.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, motorbike, ground, road
+      Question ID: question_comb_2536
+
+
+30. **Image:** `AMBER_304.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: truck, ground, grass, forest, wire, sky, road, grill
+      Question ID: question_comb_8982
+
+
+31. **Image:** `AMBER_305.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: kite, tree, sky, line, star
+      Question ID: question_comb_3234
+
+
+32. **Image:** `AMBER_312.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: cat, laptop, keyboard
+      Question ID: question_comb_5730
+
+
+33. **Image:** `AMBER_32.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, sea, beach, dog
+      Question ID: question_comb_5845
+
+
+34. **Image:** `AMBER_322.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: cat, shoe, ground, carpet
+      Question ID: question_comb_3287
+
+
+35. **Image:** `AMBER_334.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, horse, cloud, mountain, grass, man, hat, saddle, bag
+      Question ID: question_comb_5399
+
+
+36. **Image:** `AMBER_34.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: football, person, glass, grass, watch, child
+      Question ID: question_comb_1708
+
+
+37. **Image:** `AMBER_347.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: zebra, grass
+      Question ID: question_comb_6714
+
+
+38. **Image:** `AMBER_358.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: truck, ground, sky, forest, house, road
+      Question ID: question_comb_3802
+
+
+39. **Image:** `AMBER_361.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: bench, woman, wall, ground, book
+      Question ID: question_comb_3969
+
+
+40. **Image:** `AMBER_374.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: forest, river, grass, bicycle, toy, cat, road, sky
+      Question ID: question_comb_5853
+
+
+41. **Image:** `AMBER_380.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: bus, ground, building, sky, cloud, road
+      Question ID: question_comb_1242
+
+
+42. **Image:** `AMBER_386.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: cat, umbrella
+      Question ID: question_comb_5734
+
+
+43. **Image:** `AMBER_397.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: streetlamp, ground, grass, forest, person, electrombile, sky, road, hat, bush
+      Question ID: question_comb_9365
+
+
+44. **Image:** `AMBER_399.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: bed, person, cloth, pillow, curtain, dog, quilt, wall, sofa
+      Question ID: question_comb_2045
+
+
+45. **Image:** `AMBER_40.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: person, forest, grass, flower, dog
+      Question ID: question_comb_1264
+
+
+46. **Image:** `AMBER_421.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: dog, grass
+      Question ID: question_comb_7374
+
+
+47. **Image:** `AMBER_425.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: flower, fence, bicycle, kettle, ground, wall, rack
+      Question ID: question_comb_7038
+
+
+48. **Image:** `AMBER_430.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: tree, forest, streetlamp, bench, grass, ground, sky, road, stone, basket
+      Question ID: question_comb_628
+
+
+49. **Image:** `AMBER_435.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: ground, house, person, bus, cone, road, light
+      Question ID: question_comb_995
+
+
+50. **Image:** `AMBER_451.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: chair, boy, floor, toy, bear
+      Question ID: question_comb_2350
+
+
+51. **Image:** `AMBER_456.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: hydrant, road, bicycle, wall, window, ground, pole, rack
+      Question ID: question_comb_7378
+
+
+52. **Image:** `AMBER_458.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: man, grass, hat, glove, baseball
+      Question ID: question_comb_6856
+
+
+53. **Image:** `AMBER_462.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: refrigerator, cabinet, microwave, socket, wall, bar, toaster
+      Question ID: question_comb_9202
+
+
+54. **Image:** `AMBER_469.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: apple, orange, sticker
+      Question ID: question_comb_9043
+
+
+55. **Image:** `AMBER_474.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, tree, bench, grass, lake, stone, waterfront
+      Question ID: question_comb_8944
+
+
+56. **Image:** `AMBER_48.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: woman, beach
+      Question ID: question_comb_6019
+
+
+57. **Image:** `AMBER_484.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, mountain, bus, road, tree, grass, desert
+      Question ID: question_comb_3717
+
+
+58. **Image:** `AMBER_485.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sofa, carpet, skate, dog, wine, wineglass, wall, pillow, necklace, bottle, glass
+      Question ID: question_comb_5171
+
+
+59. **Image:** `AMBER_488.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, bush, giraffe, pole
+      Question ID: question_comb_5235
+
+
+60. **Image:** `AMBER_51.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, person, sea, mountain, beach
+      Question ID: question_comb_3847
+
+
+61. **Image:** `AMBER_511.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, kite, person, line
+      Question ID: question_comb_5378
+
+
+62. **Image:** `AMBER_519.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: plane, sea
+      Question ID: question_comb_4828
+
+
+63. **Image:** `AMBER_534.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: beach, sea, toy, truck
+      Question ID: question_comb_2950
+
+
+64. **Image:** `AMBER_539.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, forest, grass, woman, toy, frisbee, ground, road
+      Question ID: question_comb_9243
+
+
+65. **Image:** `AMBER_555.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, forest, grass, car, ground, road, bus
+      Question ID: question_comb_9180
+
+
+66. **Image:** `AMBER_574.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: ground, person, racket, court, tennis, hat
+      Question ID: question_comb_9030
+
+
+67. **Image:** `AMBER_583.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sea, sky, road, ground, plane, grass, airport
+      Question ID: question_comb_6308
+
+
+68. **Image:** `AMBER_587.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: computer, keyboard, wall, window, laptop, card, cable, support, table, monitor
+      Question ID: question_comb_8512
+
+
+69. **Image:** `AMBER_593.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sofa, blanket, cat, dog, carpet, floor, wall
+      Question ID: question_comb_1452
+
+
+70. **Image:** `AMBER_60.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, forest, grass, dog, ball, football
+      Question ID: question_comb_9031
+
+
+71. **Image:** `AMBER_612.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, dog, frisbee, toy, necklace
+      Question ID: question_comb_229
+
+
+72. **Image:** `AMBER_614.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: wall, tree, ground, road, motorbike, streetlamp, signal
+      Question ID: question_comb_3602
+
+
+73. **Image:** `AMBER_625.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, sea, dog, toy, frisbee, beach
+      Question ID: question_comb_6450
+
+
+74. **Image:** `AMBER_648.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sea, beach, person, dog
+      Question ID: question_comb_9898
+
+
+75. **Image:** `AMBER_652.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: table, bowl, orange
+      Question ID: question_comb_941
+
+
+76. **Image:** `AMBER_654.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: forest, river, train, rail
+      Question ID: question_comb_5000
+
+
+77. **Image:** `AMBER_669.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, dog, toy, frisbee
+      Question ID: question_comb_7827
+
+
+78. **Image:** `AMBER_674.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: wall, pot, book, card, computer, keyboard, person, ring, cable, table, monitor
+      Question ID: question_comb_1554
+
+
+79. **Image:** `AMBER_69.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: forest, car, ground, person, road, water
+      Question ID: question_comb_7232
+
+
+80. **Image:** `AMBER_701.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, tree, giraffe
+      Question ID: question_comb_6985
+
+
+81. **Image:** `AMBER_71.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, grass, flower, tree, child
+      Question ID: question_comb_4411
+
+
+82. **Image:** `AMBER_721.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: forest, grass, bench, ground, road, flower
+      Question ID: question_comb_8761
+
+
+83. **Image:** `AMBER_725.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: dog, grass, toy, frisbee, football
+      Question ID: question_comb_1596
+
+
+84. **Image:** `AMBER_737.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, cow
+      Question ID: question_comb_7429
+
+
+85. **Image:** `AMBER_742.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, bird, core, apple
+      Question ID: question_comb_7470
+
+
+86. **Image:** `AMBER_745.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, mountain, grass, horse
+      Question ID: question_comb_7060
+
+
+87. **Image:** `AMBER_748.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: zebra, grass
+      Question ID: question_comb_2664
+
+
+88. **Image:** `AMBER_750.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: cake, fork, plate
+      Question ID: question_comb_4002
+
+
+89. **Image:** `AMBER_764.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sofa, toy, bear, tissue
+      Question ID: question_comb_9439
+
+
+90. **Image:** `AMBER_765.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, dog, toy, frisbee
+      Question ID: question_comb_3803
+
+
+91. **Image:** `AMBER_773.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, forest, grass, rail, train, ground, wire
+      Question ID: question_comb_6210
+
+
+92. **Image:** `AMBER_812.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, grass, bench, sign, water, waterfront
+      Question ID: question_comb_2853
+
+
+93. **Image:** `AMBER_813.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, ground, dog, tennis, ball, road
+      Question ID: question_comb_8570
+
+
+94. **Image:** `AMBER_829.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, house, train, tree, grass
+      Question ID: question_comb_9121
+
+
+95. **Image:** `AMBER_84.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: wall, shampoo, child, bath, toy, cup, water, bottle
+      Question ID: question_comb_762
+
+
+96. **Image:** `AMBER_840.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, eagle
+      Question ID: question_comb_4976
+
+
+97. **Image:** `AMBER_851.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: wall, grape, wineglass, wine, table, bottle
+      Question ID: question_comb_4182
+
+
+98. **Image:** `AMBER_857.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: man, chair, table, laptop, curtain, wall, apple
+      Question ID: question_comb_1701
+
+
+99. **Image:** `AMBER_885.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, balloon
+      Question ID: question_comb_1774
+
+
+100. **Image:** `AMBER_896.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, desert, dog, necklace
+      Question ID: question_comb_7744
+
+
+101. **Image:** `AMBER_9.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: football, man, grass, court
+      Question ID: question_comb_4080
+
+
+102. **Image:** `AMBER_909.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sea, beach, toy, car
+      Question ID: question_comb_629
+
+
+103. **Image:** `AMBER_928.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, forest, grass, elephant
+      Question ID: question_comb_3911
+
+
+104. **Image:** `AMBER_933.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, forest, grass, bridge, lake, stone
+      Question ID: question_comb_6612
+
+
+105. **Image:** `AMBER_938.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, ship, sea, man
+      Question ID: question_comb_194
+
+
+106. **Image:** `AMBER_945.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, forest, grass, house, ground, road
+      Question ID: question_comb_378
+
+
+107. **Image:** `AMBER_96.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, cloud, sun, forest, grass, bicycle, person, stone, hat, mountain
+      Question ID: question_comb_5500
+
+
+108. **Image:** `AMBER_968.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: lion, rock, grass
+      Question ID: question_comb_4941
+
+
+109. **Image:** `AMBER_971.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: tree, tangerine, ground
+      Question ID: question_comb_8599
+
+
+110. **Image:** `AMBER_972.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: wall, drawing, grape, wine, wineglass, table, tablecloth, bottle
+      Question ID: question_comb_6176
+
+
+111. **Image:** `AMBER_980.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: sky, forest, lake, river
+      Question ID: question_comb_777
+
+
+112. **Image:** `AMBER_994.jpg`
+   **Total questions:** 1
+
+   **Questions:**
+   1. Q: Describe this image.
+      GT: grass, stone, tiger, ground
+      Question ID: question_comb_527
+
+
+================================================================================
+Total: 112 images, 112 questions
+================================================================================

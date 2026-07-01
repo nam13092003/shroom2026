@@ -1,0 +1,9 @@
+{
+  "model_name": "Gemma3-12B",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_24",
+  "probe_dir": "query_token_layer_n_2",
+  "overall_auroc": 0.9247287999662319,
+  "test_samples": 2000,
+  "timestamp": "20251005_161215"
+}

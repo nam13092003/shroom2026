@@ -1,0 +1,12 @@
+Probe Name,Test AUROC,Train AUROC
+Vision Only,0.7238,0.9304
+Vision Token - Layer 0,0.6829,0.9405
+Vision Token - Layer 6,0.6868,0.9432
+Vision Token - Layer 12,0.6845,0.9560
+Vision Token - Layer 18,0.6801,0.9505
+Vision Token - Layer 23,0.6894,0.9445
+Query Token - Layer 0,0.5040,0.5000
+Query Token - Layer 6,0.8971,0.9654
+Query Token - Layer 12,0.9055,0.9804
+Query Token - Layer 18,0.9272,0.9924
+Query Token - Layer 23,0.9014,0.9927

@@ -1,0 +1,9 @@
+{
+  "model_name": "LLaVA-Next-8B",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_31",
+  "probe_dir": "query_token_layer_n",
+  "overall_auroc": 0.9026118259803924,
+  "test_samples": 2000,
+  "timestamp": "20251005_161352"
+}

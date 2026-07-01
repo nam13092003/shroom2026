@@ -1,0 +1,9 @@
+type,num_samples,num_hallucination,num_no_hallucination,auroc,note
+Attribute Recognition,582,32,550,0.9505681818181818,
+General QA,59,3,56,0.9345238095238095,
+Knowledge & Identity,129,27,102,0.7458242556281771,
+Math & Calculation,141,32,109,0.8962155963302753,
+Spatial Reasoning,343,21,322,0.7855664004732328,
+Temporal & Video,29,14,15,0.638095238095238,
+Text & OCR,97,11,86,0.8456659619450316,
+Visual Understanding,574,46,528,0.9302536231884058,

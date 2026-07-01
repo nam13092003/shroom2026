@@ -1,0 +1,12 @@
+torch
+torchvision
+transformers
+accelerate
+pytorch-lightning
+hydra-core
+h5py
+tqdm
+numpy
+pandas
+pillow
+pytest

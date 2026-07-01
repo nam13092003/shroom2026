@@ -1,0 +1,15 @@
+{
+  "probe_name": "Llama-3.2-11B/vision_token_layer20",
+  "model": "Llama-3.2-11B",
+  "probe_dir": "vision_token_layer20",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_20",
+  "overall_auroc": 0.7391804116187417,
+  "test_samples": 1954,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_232517"
+}

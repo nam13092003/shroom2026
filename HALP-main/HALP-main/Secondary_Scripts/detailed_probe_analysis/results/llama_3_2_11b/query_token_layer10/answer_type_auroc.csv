@@ -1,0 +1,6 @@
+type,num_samples,num_hallucination,num_no_hallucination,auroc,note
+Number,126,0,126,,Single class only
+Open-Ended,408,0,408,,Single class only
+Selection,6,0,6,,Single class only
+Unanswerable,153,0,153,,Single class only
+Yes/No,1261,186,1075,0.7370042510627657,

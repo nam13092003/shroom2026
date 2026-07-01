@@ -1,0 +1,12 @@
+question_id,image_id,dataset,basic_hallucination_type,domain_type,question,ground_truth
+question_comb_3,AMBER_307.jpg,amber,Object-Related,Visual Understanding,Is there a wall in this image?,"n, o"
+question_comb_6490,AMBER_620.jpg,amber,Object-Related,Visual Understanding,Is there a sign in this image?,"n, o"
+question_comb_7091,pope_839.jpg,pope,Object-Related,Visual Understanding,Is there a bowl in the image?,yes
+question_comb_3506,AMBER_490.jpg,amber,Relationship,Spatial Reasoning,Is there direct contact between the sea and forest?,"n, o"
+question_comb_9021,AMBER_287.jpg,amber,Relationship,Spatial Reasoning,Is there direct contact between the lounge and forest?,"n, o"
+question_comb_986,AMBER_462.jpg,amber,Relationship,Spatial Reasoning,Is there direct contact between the refrigerator and microwave?,"n, o"
+question_comb_9541,AMBER_591.jpg,amber,Attribute-Related,Attribute Recognition,Are there two baseballs in this image?,"n, o"
+question_comb_5146,AMBER_108.jpg,amber,Attribute-Related,Attribute Recognition,Are there two birds in this image?,"n, o"
+question_comb_4356,AMBER_85.jpg,amber,Attribute-Related,Attribute Recognition,Is the wall rough in this image?,"n, o"
+question_comb_6250,mme_celebrity_tt0111280_shot_1479_img_2.jpg,mme,Other,Knowledge & Identity,Is the actor inside the red bounding box called William Shatner? Please answer yes or no.,Yes
+question_comb_6163,mme_celebrity_tt0070511_shot_0639_img_0.jpg,mme,Other,Knowledge & Identity,Is the person inside the red bounding box called Dustin Hoffman? Please answer yes or no.,Yes

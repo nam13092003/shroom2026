@@ -1,0 +1,15 @@
+{
+  "probe_name": "SmolVLM2-2.2B/query_token_layer12",
+  "model": "SmolVLM2-2.2B",
+  "probe_dir": "query_token_layer12",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_12",
+  "overall_auroc": 0.9054711936232469,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201824"
+}

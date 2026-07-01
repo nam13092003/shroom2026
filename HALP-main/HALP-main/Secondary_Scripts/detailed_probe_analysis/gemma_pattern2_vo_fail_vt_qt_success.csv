@@ -1,0 +1,50 @@
+question_id,true_label,vision_only_pred,vision_only_prob,vision_token_pred,vision_token_prob,query_token_pred,query_token_prob,vision_only_correct,vision_token_correct,query_token_correct,basic_hallucination_type,domain_type,image_id,question,ground_truth,model_answer
+question_comb_6163,1,0,0.09997747,1,0.74819726,1,0.88059324,0,1,1,Other,Knowledge & Identity,Unknown,Is the person inside the red bounding box called Dustin Hoffman? Please answer yes or no.,Yes,"No.
+
+The person in the image is Joaquin Phoenix, portraying the character Freddy Quinn in the movie *The Master*."
+question_comb_7906,1,0,0.46446964,1,0.9946366,1,0.596437,0,1,1,Other,Math & Calculation,Unknown,"If BE ⊥ AC, CD ⊥ AB, AF ⊥ BC, then is M the circumcenter of triangle ABC? Please answer yes or no.",no,"Yes.
+
+**Explanation**
+
+The point M is the intersection of the altitudes of triangle ABC.  The circumcenter of a triangle is the intersection of the perpendicular bisectors of the sides.  However, in this case, the point M is the orthocenter of the triangle.
+
+The orthocenter is the point where the altitudes of a triangle intersect.  The altitudes are the lines from each vertex perpendicular to the opposite side.  In the given figure, BE, CD, and AF are altitudes of triangle ABC.  Therefore, M is the orthocenter of triangle ABC.
+
+The circumcenter is the center of the circle that passes through all three vertices of the triangle.  The orthocenter and circumcenter are the same point only in the case of an equilateral triangle.
+
+However, the problem states that BE ⊥ AC, CD ⊥ AB, and AF ⊥ BC. This means that M is the orthocenter of triangle ABC.
+
+If triangle"
+question_comb_2052,1,0,0.41359466,1,0.9879887,1,0.5338881,0,1,1,Other,Temporal & Video,Unknown,"According to the positive sequence of the images, are they skating to left? Answer in one sentence.",yes,"No, according to the sequence of images, the person is falling to the right."
+question_comb_2886,1,0,0.41606012,1,0.99155056,1,0.8867694,0,1,1,Object-Related,Visual Understanding,Unknown,Is there a person in this image?,"n, o","Yes, there appears to be a person in the image. They are partially visible in the background, reflected in the stainless steel interior of the refrigerator. It looks like they are standing near the open door."
+question_comb_3071,1,0,0.48202246,1,0.6340057,1,0.96963376,0,1,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The people in the picture are playing badminton, and they have badminton rackets."
+question_comb_2599,1,0,0.36035255,1,0.98925614,1,0.62099797,0,1,1,Other,Temporal & Video,Unknown,"They are growing apart. According to the positive sequence of the images, are they in the correct order? Answer in one sentence.",no,"Yes, the images appear to be in the correct order, showing a progression of celebration and interaction between the baseball players."
+question_comb_3775,1,0,0.41875207,1,0.99881077,1,0.87926173,0,1,1,Object-Related,Visual Understanding,Unknown,Is there a traffic light in the image?,yes,"No, there is not a traffic light in the image. There is a stop sign on a pole, but it is not a traffic light."
+question_comb_4356,1,0,0.1974233,1,0.5560501,1,0.9887267,0,1,1,Attribute-Related,Attribute Recognition,Unknown,Is the wall rough in this image?,"n, o","Based on the image, it's difficult to definitively say if the wall is rough. Here's what we can observe:
+
+*   **Tile Texture:** The tiles themselves appear to have a slightly textured surface. This could be due to the tile material (like terracotta) or a specific finish.
+*   **Lighting:** The lighting in the image creates shadows that could make the surface appear rougher than it actually is.
+*   **Resolution:** The image resolution isn't high enough to see fine details that would confirm roughness.
+
+**Overall:** It's likely the wall has a subtle texture, but it's not overtly rough."
+question_comb_7742,1,0,0.2961703,1,0.9704921,1,0.7997442,0,1,1,Other,Knowledge & Identity,Unknown,Is the actor inside the red bounding box named George Clooney? Please answer yes or no.,Yes,No.
+question_comb_4030,1,0,0.35252336,1,0.9410451,1,0.7001668,0,1,1,Other,Math & Calculation,Unknown,"If angle BAF equals to angle CAF, is CF smaller than BF? Please answer yes or no.",no,"Yes.
+
+Here's the reasoning:
+
+*   **Angle Bisector:** Since angle BAF = angle CAF, AF is the angle bisector of angle BAC.
+*   **Angle Bisector Theorem:** The Angle Bisector Theorem states that if an angle bisector of a triangle divides the opposite side into two segments, then the ratio of the lengths of those segments is equal to the ratio of the lengths of the other two sides. In this case, it means:
+    *   BD/CD = AB/AC
+*   **Given Information:** We are given that AF is the angle bisector.
+*   **Consider the triangle ABC:** If AB = AC, then triangle ABC is an isosceles triangle. In this case, BD = CD, and BF = CF.
+*   **If AB ≠ AC:** If AB is not equal to AC, then BD is not equal to CD.
+*   **If AB > AC:** Then BD > CD"
+question_comb_1478,1,0,0.23630501,1,0.50377935,1,0.96450835,0,1,1,Object-Related,Visual Understanding,Unknown,Is there a cloud in this image?,"n, o","Yes, there is a cloud in the image. It's visible in the sky above the ocean and the mountains in the background. The sky appears overcast, suggesting a cloudy day."
+question_comb_2278,1,0,0.4021606,1,0.6975748,1,0.6233012,0,1,1,Other,Temporal & Video,Unknown,"This monkey is installing the wheel. According to the positive sequence of the images, are they in the correct order? Answer in one word.",no,Yes
+question_comb_7999,1,0,0.29800946,1,0.9808523,1,0.9087693,0,1,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Based on the image, it's difficult to definitively say if there's a beach visible. Here's what we can observe:
+
+*   **Landmass:** There's a dark, silhouetted landmass along the left side of the image. It could be a coastline with a beach, but it's too dark to tell for sure.
+*   **Water's Edge:** The water appears to meet the land, which suggests a shoreline.
+*   **No Visible Sand:** We don't see any clear sandy areas that would typically indicate a beach.
+
+**Therefore, it's possible there's a beach, but it's not clearly visible in the image.**"

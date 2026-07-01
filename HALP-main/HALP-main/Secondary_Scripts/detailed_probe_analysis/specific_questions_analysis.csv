@@ -1,0 +1,63 @@
+question_id,image_id,question,ground_truth,gemma_answer,is_hallucinating,basic_hallucination_type,domain_type,vision_only_label,vision_only_prob,vision_token_label,vision_token_prob,query_token_label,query_token_prob
+question_comb_6332,AMBER_157.jpg,Is there direct contact between the egg and blueberry?,"n, o","Yes, based on the image, there is direct contact between the egg and blueberries. 
+
+Here's where I see it:
+
+*   **On the gold plate:** There are blueberries directly touching the gray egg.
+*   **Scattered around:** There are blueberries scattered around the white eggs.
+
+
+
+Let me know if you'd like me to look for anything else in the image!",True,Relationship,Spatial Reasoning,1,0.40175095,1,0.3048936,1,0.8020197
+question_comb_559,mme_numerical_calculation_0003.png,Is the answer to the arithmetic question in the image 65? Please answer yes or no.,Yes,Yes.,False,Other,Math & Calculation,0,0.00028677698,0,9.339262e-06,0,0.19632585
+question_comb_2135,AMBER_132.jpg,Are there two footballs in this image?,"n, o","No, there is only one football in the image. It's the one right in front of the player in the blue and red striped jersey. The image has a slight visual effect that might make it appear as if there's a second ball, but it's just a trick of the light or image processing.",False,Attribute-Related,Attribute Recognition,0,0.0008989606,0,5.4325566e-05,0,7.47607e-05
+question_comb_3815,AMBER_17.jpg,Is there a beach in this image?,"n, o","No, there doesn't appear to be a beach visible in the image. The image shows a surfer riding a wave in the ocean. We can see the water and the surfer, but no sand or shoreline that would indicate a beach.",False,Object-Related,Visual Understanding,0,0.022017935,0,0.00092792773,0,0.020893842
+question_comb_179,hallusionbench_ocr_0_0.png,"Does the image show ""Hot dry noodles from Wuhan""?",yes,"Yes, the image does indeed show ""Hot dry noodles from Wuhan.""
+
+Here's how I can tell:
+
+*   **The text on the image:** The large Chinese characters prominently display ""武汉热干面"" (Wǔhàn rè gān miàn), which directly translates to ""Wuhan hot dry noodles.""
+*   **The dish itself:** The noodles in the bowl are visually consistent with the appearance of Wuhan hot dry noodles – thick, alkaline noodles coated in sesame paste, chili oil, and other toppings.
+
+
+
+Therefore, it's highly likely that the image is advertising or showcasing Wuhan hot dry noodles.",False,Other,Text & OCR,0,0.027441476,0,8.2740036e-07,0,0.0039918195
+question_comb_3717,AMBER_484.jpg,Describe this image.,"sky, cloud, mountain, bus, road, tree, grass, desert","Here's a description of the image:
+
+**Overall Impression:**
+
+The image captures a scenic road trip moment. Two vintage Volkswagen vans, one yellow and one orange/brown, are driving along a winding road through a mountainous, arid landscape. The scene evokes a sense of adventure, freedom, and nostalgia.
+
+**Detailed Description:**
+
+*   **Vehicles:** The focal point of the image is the two VW vans. They appear to be classic models, likely from the 1970s or earlier. The orange/brown van has a luggage rack on top and the word ""WESTERN AUSTRALIA"" painted on the back. The yellow van is slightly ahead and partially obscured.
+*   **Road:** The vans are driving on a well-maintained asphalt road with bright yellow double lines marking the center. The road curves gently into the distance.
+*   **Landscape:** The backdrop is a rugged, mountainous terrain. The hills are dry and sparsely vegetated, with",False,Other,General QA,0,0.0020717406,0,0.028110461,0,0.0
+question_comb_20,mme_celebrity_tt0076759_shot_0930_img_0.jpg,Is the actor inside the red bounding box called Harrison Ford? Please answer yes or no.,Yes,Yes.,False,Other,Knowledge & Identity,0,0.014261768,0,4.548334e-06,0,0.00095873605
+question_comb_1454,hallusionbench_video_3_1.png,"According to the positive sequence of the images, does the man open the door?",no,"Based on the sequence of images, it appears the man **does** open the door. 
+
+Here's the breakdown:
+
+*   **Image 1:** The man is looking towards a door, seemingly about to do something.
+*   **Image 2:** He is in the process of opening the door.
+*   **Image 3:** He is walking through the doorway.
+
+Therefore, the sequence suggests he opened the door.",True,Other,Temporal & Video,1,0.54126835,1,0.45316568,1,0.5431597
+question_comb_88,AMBER_389.jpg,Does the person stand in this image?,"y, e, s","Yes, there is a person standing in the image. They are visible in the lower right portion of the photo, with their arms raised as if throwing something.",False,Other,Attribute Recognition,0,0.183889,0,0.28154227,0,0.026157763
+question_comb_36,AMBER_868.jpg,Is there a person in this image?,"n, o","No, there does not appear to be a person in the image. It depicts a serene autumn landscape with a pond surrounded by colorful trees and a bright blue sky with clouds.",False,Object-Related,Visual Understanding,0,0.0036361974,0,8.6095264e-05,0,1.0576834e-05
+question_comb_27,AMBER_778.jpg,Is there direct contact between the bat and grass?,"n, o","Yes, based on the image, there is direct contact between the bat and the grass. The bottom of the bat is visibly touching the grass.",True,Relationship,Spatial Reasoning,1,0.1933701,1,0.40088886,1,0.725269
+question_comb_10,AMBER_348.jpg,Is the forest withering in this image?,"n, o","Let's analyze the image to determine if the forest is withering.
+
+**Observations:**
+
+*   **Trees:** The trees in the background appear to be healthy and full of leaves. There's a variety of green foliage.
+*   **Color Palette:** The overall color palette is muted, suggesting a cloudy or overcast day, but not necessarily a sign of withering.
+*   **No Visible Signs of Distress:** There are no obvious signs of disease, dead branches, or other indicators of a forest in decline.
+
+**Conclusion:**
+
+Based on the visual information in the image, **the forest does not appear to be withering.** The trees look healthy and vibrant. The muted colors are likely due to the weather conditions rather than a sign of forest decline.
+
+
+
+If you'd like, give me another image to analyze!",True,Attribute-Related,Attribute Recognition,1,0.20533925,1,0.3680088,1,0.34023857

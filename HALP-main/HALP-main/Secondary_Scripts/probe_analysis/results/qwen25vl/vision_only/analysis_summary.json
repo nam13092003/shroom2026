@@ -1,0 +1,9 @@
+{
+  "model_name": "Qwen2.5-VL-7B",
+  "embedding_type": "vision_only_representation",
+  "layer_name": null,
+  "probe_dir": "vision_only",
+  "overall_auroc": 0.7873055388174648,
+  "test_samples": 2000,
+  "timestamp": "20251005_161545"
+}

@@ -1,0 +1,213 @@
+question_id,true_label,vision_only_pred,vision_only_prob,vision_token_pred,vision_token_prob,query_token_pred,query_token_prob,vision_only_correct,vision_token_correct,query_token_correct,basic_hallucination_type,domain_type,image_id,question,ground_truth,model_answer
+question_comb_6250,1,0,0.0087408135,0,7.0967576e-06,1,0.851901,0,0,1,Other,Knowledge & Identity,Unknown,Is the actor inside the red bounding box called William Shatner? Please answer yes or no.,Yes,"No.
+
+The actor in the image is Patrick Stewart, not William Shatner."
+question_comb_6022,1,0,0.19995837,0,0.0008918232,1,0.5406475,0,0,1,Other,Math & Calculation,Unknown,"According to the table, does the SABMiller India have the second highest portion of the market share for beer across India in 2020?",yes,"No, according to the table, Carlsberg India has the second highest portion of the market share for beer across India in 2020.
+
+Here's the breakdown:
+
+*   **UB Group:** 54%
+*   **Carlsberg India:** 15.4%
+*   **SABMiller India:** 17.1%
+
+Carlsberg India (15.4%) has a smaller market share than SABMiller India (17.1%)."
+question_comb_9541,1,0,0.001320152,0,4.0855675e-06,1,0.9828096,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Are there two baseballs in this image?,"n, o","Yes, there are two baseballs in the image. One is in the catcher's hand, and the other is slightly blurred in the air, presumably just thrown by the pitcher."
+question_comb_6787,1,0,8.29237e-05,0,0.004405612,1,0.7941624,0,0,1,Other,Text & OCR,Unknown,"Is the word in the logo ""beavertalls pastry""? Please answer yes or no.",No,"Yes.
+
+
+
+The logo clearly reads ""BeaverTails Pastry""."
+question_comb_5146,1,0,0.0017954919,0,1.1609673e-06,1,0.9755815,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Are there two birds in this image?,"n, o","Yes, there are two birds in the image. 
+
+*   One is a seagull standing prominently in the foreground.
+*   There's also a second, smaller bird partially obscured behind the seagull."
+question_comb_3,1,0,0.0009508541,0,0.0002793161,1,0.97381604,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a wall in this image?,"n, o","Yes, there is a wall in the image. It's the light yellow wall that forms the background behind the teddy bears and the book."
+question_comb_2038,1,0,0.3904255,0,0.45255166,1,0.60752594,0,0,1,Other,General QA,Unknown,"According to the image, is New York the only U.S. state that shares a border with Lake Ontario?",yes,"No, according to the image, New York is not the only U.S. state that shares a border with Lake Ontario. The image shows that Ontario, Canada, also shares a border with Lake Ontario."
+question_comb_6490,1,0,0.0014632548,0,0.00023865773,1,0.99992085,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sign in this image?,"n, o","Yes, there are signs in the image. They are the number ""66"" displayed on both sides of the motorcycle."
+question_comb_7091,1,0,0.0019595611,0,2.6018695e-05,1,0.8885376,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a bowl in the image?,yes,"No, there is no bowl in the image. There is a pitcher of syrup and a glass, but no bowls."
+question_comb_5840,1,0,0.18616085,0,0.0062464043,1,0.90106833,0,0,1,Other,Knowledge & Identity,Unknown,Is the actor inside the red bounding box called Carl Palmer? Please answer yes or no.,No,Yes.
+question_comb_3449,1,0,0.0061690505,0,6.722333e-08,1,0.9995111,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a toy in this image?,"n, o","Yes, there is a toy in the image! You can see a pink and purple dog toy hanging from the dog's collar."
+question_comb_5418,1,0,6.7264504e-05,0,0.00013753826,1,0.96603626,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is definitely a beach in the image! You can see the sandy shore and the ocean waves in the background. The two boys are standing in the shallow water near the edge of the beach."
+question_comb_248,1,0,0.00041994522,0,0.0008314351,1,0.9998654,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a light in this image?,"n, o","Yes, there is a light source in the image. Here's what I can tell:
+
+*   **Directional Light:** The light appears to be coming from the top left of the image. This is evident from the shadows cast on the plate, the cheesecake, and the fork.
+*   **Soft Light:** The shadows are not harsh, suggesting a relatively soft light source. This could be from a window or a diffused artificial light.
+*   **Warm Tone:** The overall image has a slightly warm tone, which could be due to the light source or the color grading applied during editing.
+
+
+
+Let me know if you'd like me to analyze anything else about the image!"
+question_comb_9825,1,0,0.0043313066,0,2.061025e-05,1,0.55991405,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the beach dry in this image?,"n, o","Based on the image, the beach appears to be **partially dry**. 
+
+Here's what I observe:
+
+*   **The area where the dog is standing** looks dry and sandy.
+*   **The shoreline** is where the waves are breaking, indicating the water is reaching that point.
+*   **The sand closer to the water** might be wet or damp.
+
+So, it's not a completely dry beach, but there's a dry area where the dog is."
+question_comb_769,1,0,2.5205869e-05,0,5.831979e-05,1,0.5326448,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a flower in this image?,"n, o","Yes, there is a flower in the image! You can see a small purple flower growing in the grass near the bottom left corner of the picture."
+question_comb_4577,1,0,0.36844498,0,0.00014122903,1,0.5124841,0,0,1,Other,Temporal & Video,Unknown,"He is running counterclockwise. According to the positive sequence of the images, are they in the correct order? Answer in one sentence.",no,"Yes, the images are in the correct order, as the fighter's movement clearly progresses counterclockwise from left to right."
+question_comb_5553,1,0,0.000973971,0,0.0053017917,1,0.99305177,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the wall dirty in this image?,"n, o","Based on the image, it's difficult to definitively say if the wall is dirty. Here's a breakdown of what contributes to the perception:
+
+*   **Color and Lighting:** The wall is a muted, yellowish-green color. This color, combined with the lighting, can make it appear slightly dull or even dirty.
+*   **Tile Grout:** The grout lines between the tiles appear darker than the tiles themselves. This is common, but can also contribute to a perception of grime, especially if the grout hasn't been cleaned recently.
+*   **Reflections:** There are reflections on the tiles, which can obscure the surface and make it harder to assess cleanliness.
+
+**Overall:** It's possible the wall is simply an older, slightly faded color, and the grout is naturally darker. It's not necessarily ""dirty"" in the sense of having visible stains or buildup, but it might not be in pristine condition."
+question_comb_3031,1,0,0.013632873,0,0.0041035055,1,0.9947029,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is a beach in the image. You can clearly see a sandy beach with people standing on it in the foreground. The turquoise water extends out to the horizon."
+question_comb_3256,1,0,0.39719698,0,0.0025105642,1,0.7974722,0,0,1,Other,Knowledge & Identity,Unknown,Is the person inside the red bounding box called Eliot Paton? Please answer yes or no.,No,Yes.
+question_comb_8241,1,0,0.17027408,0,0.33944687,1,0.9983815,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is definitely a beach in the image. You can see the sandy shoreline, the waves breaking on it, and people walking along the edge of the water. It appears to be a popular spot for swimming and surfing."
+question_comb_5935,1,0,0.0021556355,0,6.544086e-05,1,0.99979335,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a ground in this image?,"n, o","Yes, there is a ground in the image. It's a grassy field, likely a soccer field, where the players are playing. You can clearly see the grass texture and the general flatness of the ground."
+question_comb_5111,1,0,0.0018830344,0,0.006349355,1,0.998552,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is definitely a beach in the image! You can see the sand and water, and a dog standing in the shallow water near the shoreline."
+question_comb_8243,1,0,6.664308e-05,0,0.0001833928,1,0.9998492,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a light in this image?,"n, o","Yes, there is a light in the image. The screens of the laptop, tablet, and phones are all emitting light. Additionally, the overall lighting of the room suggests there's a light source illuminating the scene, though it's not directly visible in the image."
+question_comb_6578,1,0,0.0020001126,0,0.0011813804,1,0.95432353,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sun in this image?,"n, o","Yes, there is a sun in the image. The lighting suggests a bright, sunny day. You can see the sunlight reflecting off the motorcycle and the rider's helmet, and the shadows are relatively sharp."
+question_comb_419,1,0,0.06448942,0,5.1251933e-05,1,0.7712295,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a knife in the image?,no,"Yes, there is a knife in the image. It's being held by the man in the apron, who appears to be shucking oysters. You can see it in his right hand."
+question_comb_5813,1,0,0.059405394,0,0.00034740093,1,0.9984676,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sun in this image?,"n, o","Yes, there is a sun in the image. You can see it in the bright blue sky behind the stop sign and the trees. The light is also illuminating the stop sign and the leaves."
+question_comb_3653,1,0,7.4308795e-05,0,6.4957014e-05,1,0.9928543,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sign in this image?,"n, o","Yes, there is a sign in the image. It appears to be a rectangular sign on the front of the car, likely a license plate or a registration sticker. It's positioned on the front bumper, just below the Mitsubishi logo."
+question_comb_5977,1,0,0.0025499188,0,7.4245227e-06,1,0.6815524,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The image shows a tennis player holding a tennis racket on a tennis court."
+question_comb_3024,1,0,0.0025499188,0,7.4245227e-06,1,0.6815524,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The image shows a tennis player holding a tennis racket on a tennis court."
+question_comb_8211,1,0,0.13293049,0,9.280132e-28,1,0.8580189,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the mountain tall in this image?,"n, o","Let's analyze the image to determine if the mountains are tall.
+
+**Observations:**
+
+*   **Distance:** The mountains are quite far away in the background. This makes them appear smaller in relation to the foreground.
+*   **Size Relative to Other Elements:** Compared to the sailboat, which is also relatively far away, the mountains seem to be of a similar size. Sailboats are typically not tiny, so this suggests the mountains are substantial.
+*   **Perspective:** Due to the distance and perspective, it's difficult to judge the absolute height of the mountains.
+
+**Conclusion:**
+
+While they don't appear *enormous* in the image due to the distance, the mountains are likely **tall**. They are clearly significant landforms and are not small hills.
+
+
+
+If you'd like, give me another image to analyze!"
+question_comb_7678,1,0,0.2882415,0,0.36729184,1,0.9268164,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The image shows a tennis court with two players, but there's no tennis ball present."
+question_comb_910,1,0,0.004162768,0,0.00047364997,1,0.61600035,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a knife in this image?,"n, o","Yes, there is a knife in the image. You can see a portion of a knife blade next to the limes on the right side of the photo."
+question_comb_3506,1,0,0.012866164,0,0.00088375504,1,0.65578943,0,0,1,Relationship,Spatial Reasoning,Unknown,Is there direct contact between the sea and forest?,"n, o","Based on the image, yes, there appears to be direct contact between the sea and the forest. 
+
+Here's what I can see:
+
+*   **Sea:** The ocean is visible in the background, with waves and a sandy beach.
+*   **Forest:** A dense, green forest is also visible in the background, directly adjacent to the beach.
+
+Therefore, the forest borders the beach, indicating direct contact between the sea and the forest."
+question_comb_807,1,0,6.0978724e-05,0,4.192489e-06,1,0.8106676,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a car in this image?,"n, o","Yes, there is a car in the image. It's visible in the distance down the road, appearing as a small, dark shape."
+question_comb_9075,1,0,0.00021283253,0,1.5330741e-05,1,0.52237755,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the mountain tall in this image?,"n, o","Based on the image, the mountain in the background appears to be relatively tall. It's a significant feature in the landscape, rising noticeably above the surrounding plains. However, it's difficult to determine the exact height without a reference point or scale."
+question_comb_4115,1,0,0.07889246,0,7.514502e-05,1,0.9872026,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,no,"Yes, there is a sports ball in the image. It appears to be a brown soccer ball or football resting on the bed near the pillows."
+question_comb_4339,1,0,0.37094557,0,0.00013470808,1,0.50670415,0,0,1,Other,Temporal & Video,Unknown,"According to the positive sequence of the images, are they skating to right? Answer in one sentence.",yes,"No, the images show a person falling and being helped up, not skating to the right."
+question_comb_3949,1,0,0.0012525205,0,0.00058191665,1,0.9514302,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a car in the image?,no,"Yes, there is a car visible in the image. It's located in the background, to the right of the group of people. It appears to be an older model car."
+question_comb_9991,1,0,0.019212363,0,3.1510194e-07,1,0.8539303,0,0,1,Other,Text & OCR,Unknown,Is this movie originated from the country or region of usa? Please answer yes or no.,Yes,"No.
+
+
+
+The movie ""The Bourne Identity"" is based on a novel by Robert Ludlum, and while it was filmed in various locations including the USA, the story and its origins are not specifically rooted in the USA. It has a strong European setting, particularly France and Switzerland."
+question_comb_235,1,0,0.41015744,0,0.46710137,1,0.5450325,0,0,1,Other,Math & Calculation,Unknown,"If angle BAF equals to angle CAF, is CF smaller than BF? Please answer yes or no.",no,"Yes.
+
+Here's the reasoning:
+
+1. **Angle Bisector:** Since angle BAF = angle CAF, line segment AF is the angle bisector of angle BAC.
+
+2. **Angle Bisector Theorem:** The Angle Bisector Theorem states that if an angle bisector of a triangle divides the opposite side into two segments, then the ratio of the lengths of the two segments is equal to the ratio of the lengths of the sides adjacent to the angle. In this case, it means:
+   BD/CD = AB/AC
+
+3. **Right Triangle AFC:** Triangle AFC is a right triangle with angle AFC = 90 degrees.
+
+4. **Right Triangle ABF:** Triangle ABF is a right triangle with angle AFB = 90 degrees.
+
+5. **Consider the area of triangle ABC:** The area of triangle ABC can be calculated as the sum of the areas of triangles ABF and AFC.
+   Area(ABC) = Area("
+question_comb_8345,1,0,0.002429943,0,0.0010542088,1,0.85597855,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a chair in the image?,no,"Yes, there is a bench in the image. Three people are sitting on it."
+question_comb_6386,1,0,0.16019464,0,0.2812759,1,0.93213236,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the sunflower withered in this image?,"n, o","Based on the image, the sunflowers do appear to be slightly withered. Here's what suggests that:
+
+*   **Drooping petals:** Some of the petals are drooping downwards, which is a common sign of wilting in sunflowers.
+*   **Darkening centers:** The centers of the sunflowers look a bit darker than they would when fresh.
+*   **Overall appearance:** They don't have the vibrant, upright appearance of freshly cut sunflowers.
+
+While they aren't completely dried out, they are past their peak freshness."
+question_comb_1218,1,0,0.2882415,0,0.36729184,1,0.9268164,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The image shows a tennis court with two players, but there's no tennis ball present."
+question_comb_7650,1,0,0.005553242,0,9.050804e-06,1,0.98972815,0,0,1,Other,Text & OCR,Unknown,Is this movie originated from the country or region of hong kong? Please answer yes or no.,Yes,"No.
+
+The movie ""The Silent War"" (静战) is a **Chinese** film. It was released in mainland China in 2012."
+question_comb_423,1,0,0.41330034,0,0.0,1,0.70429546,0,0,1,Other,Math & Calculation,Unknown,"In 2020, did China have the largest GDP around the world, followed by the United States, and Japan, according to the image?",no,"According to the image, in 2020:
+
+*   **China** had the largest share of the world's GDP.
+*   **United States** was the second largest.
+*   **Japan** was the third largest.
+
+
+
+So, your statement is correct."
+question_comb_1934,1,0,0.06257362,0,0.0070338184,1,0.85454625,0,0,1,Other,Knowledge & Identity,Unknown,Is the person inside the red bounding box named Dan Hunter? Please answer yes or no.,No,Yes.
+question_comb_9174,1,0,0.22632162,0,0.3761004,1,0.6469223,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a truck in the image?,yes,"No, there is no truck in the image. There are several cars and a police vehicle in the background, but no trucks are visible."
+question_comb_4166,1,0,0.0011597245,0,0.00014143212,1,0.9740906,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a car in the image?,no,"Yes, there is a car in the image. It's visible in the background, partially obscured by a wall and some trees."
+question_comb_1448,1,0,0.20423448,0,0.3986355,1,0.94092757,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a baseball glove in the image?,yes,"No, there is no baseball glove visible in the image. The players are wearing helmets and catcher's gear, but no gloves are present."
+question_comb_1505,1,0,0.018274743,0,3.7248521e-06,1,0.7846831,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is a beach in the image. You can see the white sand and the water's edge in the background. The person in the image is lying on the sand in the water."
+question_comb_75,1,0,0.0002768821,0,0.0017416741,1,0.52143866,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the ground wide in this image?,"n, o","Yes, the ground appears to be quite wide in this image. Here's why:
+
+*   **Brick Path:** The brick path leading away from the bench is expansive and stretches far into the background.
+*   **Green Space:** The grassy area on either side of the path is also wide, creating a sense of openness.
+*   **Perspective:** The angle of the photograph emphasizes the width of the scene.
+
+
+
+Overall, the composition suggests a broad and spacious area surrounding the bench."
+question_comb_4016,1,0,0.015392938,0,4.8770224e-05,1,0.8549055,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the sky bright in this image?,"n, o","Yes, the sky in the image is very bright. It's illuminated by a vibrant sunset, with warm colors like orange and yellow dominating the scene. The sun itself is a bright focal point."
+question_comb_7566,1,0,0.00062356214,0,0.020081967,1,0.9167406,0,0,1,Other,Knowledge & Identity,Unknown,Is this photo taken in a place of legislative chamber? Please answer yes or no.,Yes,No.
+question_comb_4799,1,0,0.00043271275,0,2.7149965e-06,1,0.99778455,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a house in this image?,"n, o","Yes, there is a house in the image. You can see a white picket fence in the background, which is a common feature of houses."
+question_comb_1022,1,0,0.061340537,0,0.00018857689,1,0.93472487,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a chair in the image?,no,"Yes, there is a chair in the image. It appears to be a beach chair that the woman is holding onto while in the water."
+question_comb_1037,1,0,0.0008989606,0,7.4481522e-06,1,0.9962662,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a cloud in this image?,"n, o","Yes, there appears to be a cloud in the image. It's visible in the background, slightly above and to the right of the players."
+question_comb_9021,1,0,0.0004743182,0,2.7634196e-06,1,0.5105867,0,0,1,Relationship,Spatial Reasoning,Unknown,Is there direct contact between the lounge and forest?,"n, o","Based on the image, there appears to be a clear transition zone between the sandy area (where the lounge chairs and umbrella are) and the forest. 
+
+Here's what I can observe:
+
+*   **Sandy Area:** The foreground is dominated by sand.
+*   **Transition Zone:** There's a narrow strip of tall grass and vegetation separating the sand from the forest.
+*   **Forest:** A dense line of trees forms the backdrop, indicating the edge of the forest.
+
+So, while there isn't a direct, seamless connection, there's a defined boundary with a natural transition zone of vegetation."
+question_comb_2162,1,0,0.011294323,0,0.00017856222,1,0.7220412,0,0,1,Other,Knowledge & Identity,Unknown,"Is this a photo of Millennium Tower (San Francisco, California)? Please answer yes or no.",Yes,"No.
+
+
+
+Millennium Tower is known for its tilting and has a distinct architectural style. This building in the photo appears to be under construction and doesn't match the completed design of Millennium Tower."
+question_comb_3216,1,0,0.43071514,0,0.38879842,1,0.92733467,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a laptop in the image?,yes,"No, there is no laptop in the image. There is a television set with a person and an aerial view of a landscape displayed on the screen."
+question_comb_9711,1,0,0.29081458,0,0.42613643,1,0.94886404,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there doesn't appear to be a sports ball visible in the image. The focus is on the baseball players and the action of the game."
+question_comb_2211,1,0,0.00034387503,0,0.00013342955,1,0.55303603,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a dining table in the image?,yes,"No, there is no dining table in the image. There are a few small outdoor tables and chairs in front of the ""Pret a Manger"" shop, but they are not full dining tables. The people in the image are sitting on a stone bench and on the ground."
+question_comb_8118,1,0,0.09043693,0,2.294494e-05,1,0.9315395,0,0,1,Other,Knowledge & Identity,Unknown,Is the person inside the red bounding box named David Gore? Please answer yes or no.,No,Yes.
+question_comb_994,1,0,1.0735507e-05,0,6.0227394e-06,1,0.7597123,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the grass withered in this image?,"n, o","Yes, the grass in the image appears to be withered or dry. It has a brownish-yellow hue, indicating a lack of moisture and vibrancy."
+question_comb_1679,1,0,0.0017067296,0,0.007233942,1,0.67594916,0,0,1,Other,Knowledge & Identity,Unknown,Is this photo taken in a place of auto factory? Please answer yes or no.,Yes,"No.
+
+
+
+The photo shows the interior of a car, but the setting doesn't resemble an auto factory. It looks more like a showroom or a private collection."
+question_comb_6400,1,0,0.195968,0,8.769128e-05,1,0.7219292,0,0,1,Other,Text & OCR,Unknown,"According to the text given in the image, does this poster depict the movie Zootopia?",no,"Yes, according to the text in the image, this poster depicts the movie Zootopia. It states ""From the creators of Frozen and Big Hero 6"" and has a release date of ""March 4"" with ""In 3D and Real 3D."" These are all details associated with the movie Zootopia."
+question_comb_6347,1,0,0.0011050391,0,0.0016417985,1,0.91139656,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Are there three cars in this image?,"n, o","Yes, there are three cars in the image. 
+
+*   **One car is in the foreground:** This is the car closest to the camera, with two people standing next to it.
+*   **One car is in the mid-ground:** This car is driving through the sand dunes.
+*   **One car is in the background:** A smaller, darker car can be seen further away in the distance.
+
+
+
+Let me know if you'd like me to point out anything else in the image!"
+question_comb_3255,1,0,0.02574743,0,1.894447e-05,1,0.818356,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Are there two mice in this image?,"n, o","Yes, there are two mice in the image. 
+
+*   One is a white Apple mouse in front of the laptop.
+*   The other is a white mouse on a black pad to the right of the laptop."
+question_comb_511,1,0,0.0024083734,0,0.007108436,1,0.9896387,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a door in this image?,"n, o","Yes, there is a door visible in the image. It's located on the right side, partially obscured by greenery. It appears to be a dark-colored door within a brick structure."
+question_comb_426,1,0,0.077081464,0,7.5878204e-05,1,0.8980406,0,0,1,Other,Knowledge & Identity,Unknown,Is the actor inside the red bounding box called Robert Redford? Please answer yes or no.,Yes,"No.
+
+The actor in the red box is **Armie Hammer**, portraying Charles Cullen in the series *American Crime Story: The Nurse*. Robert Redford is a different actor."
+question_comb_4601,1,0,3.25965e-05,0,0.00018147743,1,0.9364243,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a streetlamp in this image?,"n, o","Yes, there appears to be a streetlamp visible in the image. It's located in the upper right corner, slightly blurred and partially obscured by the grass."
+question_comb_8083,1,0,0.00033907525,0,0.009935054,1,0.99717593,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a beach in this image?,"n, o","Yes, there is a beach in the image. You can see a person entering the water from a sandy shoreline. The beach appears to be a relatively wide, light-colored sand beach."
+question_comb_4981,1,0,0.23190954,0,0.00022893629,1,0.86031985,0,0,1,Other,Knowledge & Identity,Unknown,Is the actor inside the red bounding box called Jon Voight? Please answer yes or no.,Yes,"No.
+
+The actor in the image is Zach Galifianakis."
+question_comb_2258,1,0,0.0025499188,0,7.4245227e-06,1,0.6815524,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a sports ball in the image?,yes,"No, there is no sports ball visible in the image. The image shows a tennis player holding a tennis racket on a tennis court."
+question_comb_1233,1,0,0.11632576,0,0.015197111,1,0.84427494,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a bowl in the image?,yes,"No, I don't see a bowl in the image. There are wooden crates and boxes filled with fruits and vegetables, but no bowls."
+question_comb_9445,1,0,0.0028023818,0,0.00033606048,1,0.6113802,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a bottle in the image?,no,"Yes, there is a bottle in the image. It's a silver-colored bottle sitting on top of a black speaker to the right of the computer monitor."
+question_comb_7020,1,0,0.0018272359,0,0.0003697438,1,0.9168533,0,0,1,Attribute-Related,Attribute Recognition,Unknown,Is the flower withered in this image?,"n, o","Based on the image, it appears that some of the flowers are indeed withered. You can see some brown and dry-looking flowers mixed in with the white ones in the foreground. It seems like a natural part of a field in bloom, where some flowers are past their prime."
+question_comb_986,1,0,0.14153515,0,0.4446347,1,0.5487293,0,0,1,Relationship,Spatial Reasoning,Unknown,Is there direct contact between the refrigerator and microwave?,"n, o","Based on the image, it appears there is **direct contact** between the refrigerator and the microwave. The microwave is positioned right next to the refrigerator, and there doesn't seem to be any significant gap between them."
+question_comb_7066,1,0,0.0020488522,0,0.008019774,1,0.9668843,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a baseball bat in the image?,no,"Yes, there is a baseball bat in the image. It appears to be gold and is being used by the groom to cut the wedding cake."
+question_comb_9372,1,0,0.0022567862,0,2.2509566e-05,1,0.98764616,0,0,1,Object-Related,Visual Understanding,Unknown,Is there a person in this image?,"n, o","Yes, there are people visible in the image. You can see a few people standing near the red bus in the background. They are small and somewhat indistinct, but they are present."

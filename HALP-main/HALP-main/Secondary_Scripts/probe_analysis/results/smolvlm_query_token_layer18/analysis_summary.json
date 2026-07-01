@@ -1,0 +1,11 @@
+{
+  "model_name": "SmolVLM2-2.2B",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_18",
+  "timestamp": "20251005_155115",
+  "overall_auroc": 0.9272147109272525,
+  "test_samples": 2000,
+  "num_categories_analyzed": 35,
+  "num_sources_analyzed": 6,
+  "checkpoint_path": "/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer18/probe_model.pt"
+}

@@ -1,0 +1,36 @@
+category,num_samples,num_hallucination,num_no_hallucination,auroc,note
+math,24,9,15,0.8962962962962963,
+figure,5,1,4,0.75,
+table,13,6,7,0.7380952380952382,
+artwork,16,1,15,0.7333333333333334,
+popular,74,7,67,0.720682302771855,
+illusion,21,8,13,0.7019230769230769,
+ocr,6,4,2,0.625,
+commonsense_reasoning,15,2,13,0.6153846153846154,
+posters,24,1,23,0.5652173913043479,
+discriminative-attribute-number,61,22,39,0.5477855477855478,
+relation,131,4,127,0.5374015748031495,
+discriminative-attribute-state,263,47,216,0.5096040189125295,
+discriminative-hallucination,126,43,83,0.48010647240123283,
+chart,17,9,8,0.4722222222222222,
+adversarial,73,11,62,0.3350439882697947,
+map,7,2,5,0.3,
+video,30,14,16,0.26116071428571425,
+discriminative-attribute-action,11,1,10,0.09999999999999998,
+text_translation,8,4,4,0.09375,
+random,95,1,94,0.06382978723404253,
+landmark,11,1,10,0.0,
+celebrity,75,0,75,,Single class only
+code_reasoning,4,0,4,,Single class only
+color,2,0,2,,Single class only
+count,3,0,3,,Single class only
+discriminative-relation,178,0,178,,Single class only
+existence,3,0,3,,Single class only
+false premises,196,0,196,,Single class only
+general-vqa,47,0,47,,Single class only
+generative,16,0,16,,Single class only
+insufficient context,68,0,68,,Single class only
+math-targeted-vqa,57,0,57,,Single class only
+position,8,0,8,,Single class only
+scene,7,0,7,,Single class only
+visual challenge,305,0,305,,Single class only

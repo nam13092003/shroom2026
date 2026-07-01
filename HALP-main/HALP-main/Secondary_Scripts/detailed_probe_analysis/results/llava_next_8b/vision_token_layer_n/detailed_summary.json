@@ -1,0 +1,15 @@
+{
+  "probe_name": "LLaVA-Next-8B/vision_token_layer_n",
+  "model": "LLaVA-Next-8B",
+  "probe_dir": "vision_token_layer_n",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_31",
+  "overall_auroc": 0.6270329095179739,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201628"
+}

@@ -1,0 +1,9 @@
+{
+  "model_name": "SmolVLM2-2.2B",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_18",
+  "probe_dir": "query_token_layer18",
+  "overall_auroc": 0.9272147109272525,
+  "test_samples": 2000,
+  "timestamp": "20251005_161619"
+}

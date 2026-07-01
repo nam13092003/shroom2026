@@ -1,0 +1,9 @@
+{
+  "model_name": "Qwen2.5-VL-7B",
+  "embedding_type": "query_token_representation",
+  "layer_name": "layer_14",
+  "probe_dir": "query_token_layer_n_2",
+  "overall_auroc": 0.8794109755936647,
+  "test_samples": 2000,
+  "timestamp": "20251005_161537"
+}

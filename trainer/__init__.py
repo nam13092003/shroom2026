@@ -1,0 +1,1 @@
+from trainer.lightning_module import ShroomVisionsModule

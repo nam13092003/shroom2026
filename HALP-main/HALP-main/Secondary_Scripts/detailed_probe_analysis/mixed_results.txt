@@ -1,0 +1,865 @@
+================================================================================
+FINDING IMAGES WITH MIXED HALLUCINATION PATTERNS
+================================================================================
+
+Looking for images where model hallucinates on some questions but not others
+
+
+================================================================================
+Model: Gemma3-12B
+================================================================================
+
+Found 577 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: pope_748.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a baseball bat in the image?...
+    Model A: Yes, there is a baseball bat in the image. It appears to be gold and is being used by the groom to c...
+    Truth: no...
+    Question ID: question_comb_7066
+
+  Example NO HALLUCINATION question:
+    Q: Is there a dining table in the image?...
+    Model A: No, there is no dining table in the image. There is a table holding the wedding cake and cupcakes, b...
+    Truth: no...
+    Question ID: question_comb_415
+
+Image ID: pope_582.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a traffic light in the image?...
+    Model A: Yes, there is a traffic light visible in the image. It's located on the left side of the frame, near...
+    Truth: no...
+    Question ID: question_comb_7394
+
+  Example NO HALLUCINATION question:
+    Q: Is there a tv in the image?...
+    Model A: No, I don't see a TV in the image....
+    Truth: no...
+    Question ID: question_comb_5203
+
+Image ID: pope_502.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a car in the image?...
+    Model A: Yes, there is a car in the image. It's a vintage-looking green car parked behind the vendor's table ...
+    Truth: no...
+    Question ID: question_comb_6377
+
+  Example NO HALLUCINATION question:
+    Q: Is there a knife in the image?...
+    Model A: No, I don't see a knife in the image....
+    Truth: no...
+    Question ID: question_comb_3776
+
+Image ID: pope_44.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a bowl in the image?...
+    Model A: Yes, there is a bowl visible in the image. It's sitting inside the microwave....
+    Truth: no...
+    Question ID: question_comb_8681
+
+  Example NO HALLUCINATION question:
+    Q: Is there a person in the image?...
+    Model A: No, there is no person visible in the image. The image shows a microwave, a toaster oven, and a sign...
+    Truth: no...
+    Question ID: question_comb_2422
+
+Image ID: AMBER_157.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there direct contact between the egg and blueberry?...
+    Model A: Yes, based on the image, there is direct contact between the egg and blueberries. 
+
+Here's where I s...
+    Truth: n, o...
+    Question ID: question_comb_6332
+
+  Example NO HALLUCINATION question:
+    Q: Is there direct contact between the egg and tablecloth?...
+    Model A: Yes, based on the image, there is direct contact between the eggs and the tablecloth. You can see th...
+    Truth: y, e, s...
+    Question ID: question_comb_9290
+
+================================================================================
+Model: FastVLM-7B
+================================================================================
+
+Found 509 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: pope_776.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a baseball glove in the image?...
+    Model A: Yes, there is a baseball glove in the image. It is located on the countertop next to the brown leath...
+    Truth: no...
+    Question ID: question_comb_5516
+
+  Example NO HALLUCINATION question:
+    Q: Is there a person in the image?...
+    Model A: No, there is no person in the image.
+The image shows a clean and organized kitchen with a focus on t...
+    Truth: no...
+    Question ID: question_comb_8641
+
+Image ID: pope_582.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a traffic light in the image?...
+    Model A: Yes, there is a traffic light in the image, and the blue bus is waiting at an intersection under it....
+    Truth: no...
+    Question ID: question_comb_7394
+
+  Example NO HALLUCINATION question:
+    Q: Is there a tv in the image?...
+    Model A: There is no television visible in the image. The scene is an outdoor urban street, and the main focu...
+    Truth: no...
+    Question ID: question_comb_5203
+
+Image ID: pope_1784.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there an oven in the image?...
+    Model A: Yes, there is a small oven in the image.
+The small oven is located in the background, behind the man...
+    Truth: no...
+    Question ID: question_comb_9155
+
+  Example NO HALLUCINATION question:
+    Q: Is there a car in the image?...
+    Model A: No, there is no car in the image. The image shows a person sitting at a table with a laptop, a glass...
+    Truth: no...
+    Question ID: question_comb_7150
+
+Image ID: pope_1722.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a keyboard in the image?...
+    Model A: Yes, there is a keyboard in the image. It is placed in front of the computer monitor on the desk.
+Th...
+    Truth: no...
+    Question ID: question_comb_9349
+
+  Example NO HALLUCINATION question:
+    Q: Is there a bottle in the image?...
+    Model A: No, there is no bottle in the image.
+The image depicts a well-organized desk setup with various elec...
+    Truth: no...
+    Question ID: question_comb_9445
+
+Image ID: pope_1565.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there an umbrella in the imange?...
+    Model A: There is no umbrella visible in the image. The scene is focused on the beach and the ocean, with the...
+    Truth: yes...
+    Question ID: question_comb_494
+
+  Example NO HALLUCINATION question:
+    Q: Is there an umbrella in the image?...
+    Model A: Yes, there is an umbrella in the image, located on the sandy beach near the ocean.
+==
+Question:
+What...
+    Truth: yes...
+    Question ID: question_comb_8186
+
+================================================================================
+Model: LLaVA-Next-8B
+================================================================================
+
+Found 801 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: AMBER_470.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there direct contact between the bench and tree?...
+    Model A: Yes, there is direct contact between the bench and the tree. The bench is positioned close to the tr...
+    Truth: n, o...
+    Question ID: question_comb_4350
+
+  Example NO HALLUCINATION question:
+    Q: Is there direct contact between the bench and ground?...
+    Model A: Yes, there is direct contact between the bench and the ground. The bench is sitting on the ground, a...
+    Truth: y, e, s...
+    Question ID: question_comb_1985
+
+Image ID: hallusionbench_video_1_1.png
+  Total questions: 4
+  Hallucinated: 2 (50.0%)
+  No hallucination: 2 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: According to the positive sequence images, does Homer Simpson disappear into the bushes?...
+    Model A: The image you've provided appears to be a sequence from the animated television show "The Simpsons."...
+    Truth: no...
+    Question ID: question_comb_3232
+
+  Example NO HALLUCINATION question:
+    Q: According to the positive sequence images, does Homer Simpson come out of the bushes?...
+    Model A: The image you've provided appears to be a sequence from the animated television show "The Simpsons."...
+    Truth: yes...
+    Question ID: question_comb_4394
+
+Image ID: hallusionbench_video_1_0.png
+  Total questions: 4
+  Hallucinated: 2 (50.0%)
+  No hallucination: 2 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: According to the positive sequence images, does Homer Simpson come out of the bushes?...
+    Model A: The image you've provided appears to be a sequence from the animated television show "The Simpsons."...
+    Truth: no...
+    Question ID: question_comb_1137
+
+  Example NO HALLUCINATION question:
+    Q: Homer Simpson disappears into the bushes. According to the positive sequence of the images, are they...
+    Model A: The sequence of images you've provided shows Homer Simpson disappearing into the bushes. However, th...
+    Truth: yes...
+    Question ID: question_comb_337
+
+Image ID: hallusionbench_video_19_2.png
+  Total questions: 4
+  Hallucinated: 2 (50.0%)
+  No hallucination: 2 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: He is running clockwise. According to the positive sequence of the images, are they in the correct o...
+    Model A: Yes, the sequence of images shows the fighter running clockwise in the correct order....
+    Truth: no...
+    Question ID: question_comb_3009
+
+  Example NO HALLUCINATION question:
+    Q: According to the positive sequence of the images, Is he running counterclockwise? Answer in one sent...
+    Model A: Yes, the sequence of images shows the man running counterclockwise....
+    Truth: yes...
+    Question ID: question_comb_3339
+
+Image ID: hallusionbench_video_19_1.png
+  Total questions: 4
+  Hallucinated: 2 (50.0%)
+  No hallucination: 2 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: According to the positive sequence of the images, Is he running counterclockwise? Answer in one sent...
+    Model A: Yes, the sequence of images shows the fighter running counterclockwise around the ring....
+    Truth: no...
+    Question ID: question_comb_3097
+
+  Example NO HALLUCINATION question:
+    Q: According to the positive sequence of the images, Is he running clockwise? Answer in one sentence....
+    Model A: Yes, the sequence of images shows the fighter running clockwise around the ring....
+    Truth: yes...
+    Question ID: question_comb_7755
+
+================================================================================
+Model: Molmo-V1
+================================================================================
+
+Found 669 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: mme_celebrity_tt0065724_shot_0320_img_1.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is the person inside the red bounding box named Nick Discenza? Please answer yes or no....
+    Model A: Yes....
+    Truth: No...
+    Question ID: question_comb_7875
+
+  Example NO HALLUCINATION question:
+    Q: Is the person inside the red bounding box named Karen Black? Please answer yes or no....
+    Model A: Yes....
+    Truth: Yes...
+    Question ID: question_comb_9836
+
+Image ID: mme_artwork_34109.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is this artwork displayed in national gallery of art, washington? Please answer yes or no....
+    Model A: No....
+    Truth: Yes...
+    Question ID: question_comb_3212
+
+  Example NO HALLUCINATION question:
+    Q: Is this artwork displayed in abbey church of sainte-foy, conques? Please answer yes or no....
+    Model A: No....
+    Truth: No...
+    Question ID: question_comb_779
+
+Image ID: mme_artwork_34363.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is this artwork displayed in museo del prado, madrid? Please answer yes or no....
+    Model A: No....
+    Truth: Yes...
+    Question ID: question_comb_5988
+
+  Example NO HALLUCINATION question:
+    Q: Is this artwork displayed in state tretyakov gallery, moscow? Please answer yes or no....
+    Model A: No....
+    Truth: No...
+    Question ID: question_comb_4871
+
+Image ID: mme_artwork_42956.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is this artwork titled st bonaventure enters the franciscan order? Please answer yes or no....
+    Model A: Yes....
+    Truth: No...
+    Question ID: question_comb_1450
+
+  Example NO HALLUCINATION question:
+    Q: Is this artwork titled view of rome with the tiberand castel sant'angelo? Please answer yes or no....
+    Model A: Yes....
+    Truth: Yes...
+    Question ID: question_comb_8436
+
+Image ID: mme_artwork_6297.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is this artwork titled allegory of quietude? Please answer yes or no....
+    Model A: Yes....
+    Truth: No...
+    Question ID: question_comb_5653
+
+  Example NO HALLUCINATION question:
+    Q: Is this artwork titled peasants making merry outside a tavern 'the swan'? Please answer yes or no....
+    Model A: Yes....
+    Truth: Yes...
+    Question ID: question_comb_3974
+
+================================================================================
+Model: Qwen2.5-VL-7B
+================================================================================
+
+Found 305 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: mme_commonsense_reasoning_0030.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: I'm going to 501. Do I need to turn left at the intersection? Please answer yes or no....
+    Model A: No....
+    Truth: Yes...
+    Question ID: question_comb_7082
+
+  Example NO HALLUCINATION question:
+    Q: I'm going to 502. Do I need to turn left at the intersection? Please answer yes or no....
+    Model A: No....
+    Truth: No...
+    Question ID: question_comb_1842
+
+Image ID: mme_commonsense_reasoning_0032.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Here is a picture of the cake I cut. Did I cut it at least once? Please answer yes or no....
+    Model A: Yes....
+    Truth: No...
+    Question ID: question_comb_5159
+
+  Example NO HALLUCINATION question:
+    Q: Here is a picture of the cake I cut. Did I cut it at least twice? Please answer yes or no....
+    Model A: Yes....
+    Truth: Yes...
+    Question ID: question_comb_935
+
+Image ID: mme_commonsense_reasoning_0036.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is it a good time to walk through the road in the picture? Please answer yes or no....
+    Model A: No....
+    Truth: Yes...
+    Question ID: question_comb_5549
+
+  Example NO HALLUCINATION question:
+    Q: Is it a good time to drive a car through the road in the picture? Please answer yes or no....
+    Model A: No....
+    Truth: No...
+    Question ID: question_comb_2921
+
+Image ID: mme_commonsense_reasoning_0038.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: All apples are shown in the picture. If I eat an apple every day, can I eat it for three days? Pleas...
+    Model A: Yes....
+    Truth: No...
+    Question ID: question_comb_6948
+
+  Example NO HALLUCINATION question:
+    Q: All apples are shown in the picture. If I eat an apple every day, can I eat it for four days? Please...
+    Model A: Yes....
+    Truth: Yes...
+    Question ID: question_comb_5102
+
+Image ID: mme_commonsense_reasoning_0039.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: This line chart is used to count the sales of two types of burgers. Are chicken burgers more popular...
+    Model A: No....
+    Truth: Yes...
+    Question ID: question_comb_9787
+
+  Example NO HALLUCINATION question:
+    Q: This line chart is used to count the sales of two types of burgers. Are beef burgers more popular? P...
+    Model A: No....
+    Truth: No...
+    Question ID: question_comb_5322
+
+================================================================================
+Model: SmolVLM2-2.2B
+================================================================================
+
+Found 618 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: pope_754.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a bed in the image?...
+    Model A: User:
+
+
+
+Is there a bed in the image?
+Assistant: Yes, there is a bed in the image....
+    Truth: no...
+    Question ID: question_comb_706
+
+  Example NO HALLUCINATION question:
+    Q: Is there a chair in the image?...
+    Model A: User:
+
+
+
+Is there a chair in the image?
+Assistant: There is no chair in the image....
+    Truth: no...
+    Question ID: question_comb_2018
+
+Image ID: pope_748.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a dining table in the image?...
+    Model A: User:
+
+
+
+Is there a dining table in the image?
+Assistant: Yes, there is a dining table in the image....
+    Truth: no...
+    Question ID: question_comb_415
+
+  Example NO HALLUCINATION question:
+    Q: Is there a baseball bat in the image?...
+    Model A: User:
+
+
+
+Is there a baseball bat in the image?
+Assistant: There is no mention of a baseball bat in t...
+    Truth: no...
+    Question ID: question_comb_7066
+
+Image ID: pope_692.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a person in the image?...
+    Model A: User:
+
+
+
+Is there a person in the image?
+Assistant: Yes, there is a person sitting on the couch....
+    Truth: no...
+    Question ID: question_comb_933
+
+  Example NO HALLUCINATION question:
+    Q: Is there an elephant in the image?...
+    Model A: User:
+
+
+
+Is there an elephant in the image?
+Assistant: No, there is no elephant in the image....
+    Truth: no...
+    Question ID: question_comb_1005
+
+Image ID: pope_582.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a traffic light in the image?...
+    Model A: User:
+
+
+
+Is there a traffic light in the image?
+Assistant: Yes, there is a traffic light in the imag...
+    Truth: no...
+    Question ID: question_comb_7394
+
+  Example NO HALLUCINATION question:
+    Q: Is there a tv in the image?...
+    Model A: User:
+
+
+
+Is there a tv in the image?
+Assistant: There is no television visible in the image....
+    Truth: no...
+    Question ID: question_comb_5203
+
+Image ID: mme_commonsense_reasoning_0047.png
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: All apples are shown in the picture. My brother and I divide the apples equally. May I have two appl...
+    Model A: User:
+
+
+
+
+All apples are shown in the picture. My brother and I divide the apples equally. May I hav...
+    Truth: No...
+    Question ID: question_comb_4178
+
+  Example NO HALLUCINATION question:
+    Q: All apples are shown in the picture. My brother and I divide the apples equally. May I have one appl...
+    Model A: User:
+
+
+
+
+All apples are shown in the picture. My brother and I divide the apples equally. May I hav...
+    Truth: Yes...
+    Question ID: question_comb_4711
+
+================================================================================
+Model: Llama-3.2-11B
+================================================================================
+
+Found 518 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: pope_776.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a person in the image?...
+    Model A: Yes, there is a person in the picture on the wall. It is a framed photo of a person....
+    Truth: no...
+    Question ID: question_comb_8641
+
+  Example NO HALLUCINATION question:
+    Q: Is there a baseball glove in the image?...
+    Model A: No, there does not appear to be a baseball glove in the image. There is a brown leather bag on the c...
+    Truth: no...
+    Question ID: question_comb_5516
+
+Image ID: pope_754.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a bed in the image?...
+    Model A: Yes, there is a bed in the image. The bed is covered with a blue blanket and a brown blanket....
+    Truth: no...
+    Question ID: question_comb_706
+
+  Example NO HALLUCINATION question:
+    Q: Is there a chair in the image?...
+    Model A: There is a couch in the image, but no chair is visible....
+    Truth: no...
+    Question ID: question_comb_2018
+
+Image ID: pope_748.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a dining table in the image?...
+    Model A: Yes, there is a dining table in the image. The table is set with a cake and cupcakes on it, and ther...
+    Truth: no...
+    Question ID: question_comb_415
+
+  Example NO HALLUCINATION question:
+    Q: Is there a baseball bat in the image?...
+    Model A: No, there does not appear to be a baseball bat in the image. The only object that could be mistaken ...
+    Truth: no...
+    Question ID: question_comb_7066
+
+Image ID: AMBER_157.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there direct contact between the egg and blueberry?...
+    Model A: Yes, there is direct contact between the egg and blueberry in the image. The blueberries are scatter...
+    Truth: n, o...
+    Question ID: question_comb_6332
+
+  Example NO HALLUCINATION question:
+    Q: Is there direct contact between the egg and tablecloth?...
+    Model A: The image shows a tablecloth with various items on it, including eggs and blueberries. The eggs are ...
+    Truth: y, e, s...
+    Question ID: question_comb_9290
+
+Image ID: pope_638.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a bowl in the image?...
+    Model A: Yes, there is a bowl on the desk in front of the laptop. It appears to be a coffee mug, but it could...
+    Truth: no...
+    Question ID: question_comb_8719
+
+  Example NO HALLUCINATION question:
+    Q: Is there a sports ball in the image?...
+    Model A: No, there is no sports ball in the image....
+    Truth: no...
+    Question ID: question_comb_3187
+
+================================================================================
+Model: Phi4-VL
+================================================================================
+
+Found 490 images with mixed hallucination patterns
+
+Top 5 most balanced cases (closest to 50/50 split):
+--------------------------------------------------------------------------------
+
+Image ID: pope_748.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a dining table in the image?...
+    Model A: yes...
+    Truth: no...
+    Question ID: question_comb_415
+
+  Example NO HALLUCINATION question:
+    Q: Is there a baseball bat in the image?...
+    Model A: no...
+    Truth: no...
+    Question ID: question_comb_7066
+
+Image ID: pope_638.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a bowl in the image?...
+    Model A: yes...
+    Truth: no...
+    Question ID: question_comb_8719
+
+  Example NO HALLUCINATION question:
+    Q: Is there a sports ball in the image?...
+    Model A: no...
+    Truth: no...
+    Question ID: question_comb_3187
+
+Image ID: pope_582.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a traffic light in the image?...
+    Model A: yes...
+    Truth: no...
+    Question ID: question_comb_7394
+
+  Example NO HALLUCINATION question:
+    Q: Is there a tv in the image?...
+    Model A: no...
+    Truth: no...
+    Question ID: question_comb_5203
+
+Image ID: pope_2980.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there a car in the image?...
+    Model A: yes...
+    Truth: no...
+    Question ID: question_comb_1675
+
+  Example NO HALLUCINATION question:
+    Q: Is there a cup in the image?...
+    Model A: no...
+    Truth: no...
+    Question ID: question_comb_6329
+
+Image ID: pope_2652.jpg
+  Total questions: 2
+  Hallucinated: 1 (50.0%)
+  No hallucination: 1 (50.0%)
+
+  Example HALLUCINATED question:
+    Q: Is there an orange in the imange?...
+    Model A: yes...
+    Truth: no...
+    Question ID: question_comb_9845
+
+  Example NO HALLUCINATION question:
+    Q: Is there a baseball bat in the image?...
+    Model A: no...
+    Truth: no...
+    Question ID: question_comb_3711
+
+================================================================================
+SUMMARY STATISTICS
+================================================================================
+
+FastVLM-7B:
+  Total images with mixed patterns: 509
+  Avg hallucination rate: 37.6%
+  Most balanced image: AMBER_111.jpg
+
+Gemma3-12B:
+  Total images with mixed patterns: 577
+  Avg hallucination rate: 36.7%
+  Most balanced image: AMBER_157.jpg
+
+LLaVA-Next-8B:
+  Total images with mixed patterns: 801
+  Avg hallucination rate: 37.9%
+  Most balanced image: AMBER_120.jpg
+
+Llama-3.2-11B:
+  Total images with mixed patterns: 518
+  Avg hallucination rate: 37.8%
+  Most balanced image: AMBER_120.jpg
+
+Molmo-V1:
+  Total images with mixed patterns: 669
+  Avg hallucination rate: 37.9%
+  Most balanced image: AMBER_117.jpg
+
+Phi4-VL:
+  Total images with mixed patterns: 490
+  Avg hallucination rate: 39.3%
+  Most balanced image: AMBER_182.jpg
+
+Qwen2.5-VL-7B:
+  Total images with mixed patterns: 305
+  Avg hallucination rate: 36.6%
+  Most balanced image: AMBER_307.jpg
+
+SmolVLM2-2.2B:
+  Total images with mixed patterns: 618
+  Avg hallucination rate: 35.5%
+  Most balanced image: AMBER_120.jpg
+
+================================================================================
+Results saved to: /root/akhil/detailed_probe_analysis/mixed_hallucination_images.csv
+================================================================================

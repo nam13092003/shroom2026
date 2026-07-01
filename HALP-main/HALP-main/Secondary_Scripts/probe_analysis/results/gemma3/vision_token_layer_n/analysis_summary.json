@@ -1,0 +1,9 @@
+{
+  "model_name": "Gemma3-12B",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_47",
+  "probe_dir": "vision_token_layer_n",
+  "overall_auroc": 0.5955716305770125,
+  "test_samples": 2000,
+  "timestamp": "20251005_161237"
+}

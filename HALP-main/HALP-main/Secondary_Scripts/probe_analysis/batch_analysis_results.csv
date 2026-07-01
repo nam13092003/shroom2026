@@ -1,0 +1,89 @@
+model,probe,status,auroc,reason,checkpoint,output_dir
+Gemma3-12B,vision_only,SKIP,,Checkpoint not found,,
+Gemma3-12B,vision_token_layer0,SKIP,,Checkpoint not found,,
+Gemma3-12B,vision_token_layer10,SKIP,,Checkpoint not found,,
+Gemma3-12B,vision_token_layer21,SKIP,,Checkpoint not found,,
+Gemma3-12B,vision_token_layer31,SKIP,,Checkpoint not found,,
+Gemma3-12B,vision_token_layer41,SKIP,,Checkpoint not found,,
+Gemma3-12B,query_token_layer0,SKIP,,Checkpoint not found,,
+Gemma3-12B,query_token_layer10,SKIP,,Checkpoint not found,,
+Gemma3-12B,query_token_layer21,SKIP,,Checkpoint not found,,
+Gemma3-12B,query_token_layer31,SKIP,,Checkpoint not found,,
+Gemma3-12B,query_token_layer41,SKIP,,Checkpoint not found,,
+FastVLM-7B,vision_only,FAILED,,,/root/akhil/probe_training_scripts/fastvlm_model_probe/results/vision_only/probe_model.pt,/root/akhil/probe_analysis/results/fastvlm/vision_only
+FastVLM-7B,vision_token_layer0,FAILED,,,/root/akhil/probe_training_scripts/fastvlm_model_probe/results/vision_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/fastvlm/vision_token_layer0
+FastVLM-7B,vision_token_layer8,SKIP,,Checkpoint not found,,
+FastVLM-7B,vision_token_layer16,SKIP,,Checkpoint not found,,
+FastVLM-7B,vision_token_layer24,SKIP,,Checkpoint not found,,
+FastVLM-7B,vision_token_layer31,SKIP,,Checkpoint not found,,
+FastVLM-7B,query_token_layer0,FAILED,,,/root/akhil/probe_training_scripts/fastvlm_model_probe/results/query_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/fastvlm/query_token_layer0
+FastVLM-7B,query_token_layer8,SKIP,,Checkpoint not found,,
+FastVLM-7B,query_token_layer16,SKIP,,Checkpoint not found,,
+FastVLM-7B,query_token_layer24,SKIP,,Checkpoint not found,,
+FastVLM-7B,query_token_layer31,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_only,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_token_layer0,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_token_layer8,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_token_layer16,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_token_layer24,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,vision_token_layer31,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,query_token_layer0,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,query_token_layer8,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,query_token_layer16,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,query_token_layer24,SKIP,,Checkpoint not found,,
+LLaVA-Next-8B,query_token_layer31,SKIP,,Checkpoint not found,,
+Molmo-V1,vision_only,FAILED,,,/root/akhil/probe_training_scripts/molmo_model_probe/results/vision_only/probe_model.pt,/root/akhil/probe_analysis/results/molmo/vision_only
+Molmo-V1,vision_token_layer0,FAILED,,,/root/akhil/probe_training_scripts/molmo_model_probe/results/vision_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/molmo/vision_token_layer0
+Molmo-V1,vision_token_layer7,SKIP,,Checkpoint not found,,
+Molmo-V1,vision_token_layer14,SKIP,,Checkpoint not found,,
+Molmo-V1,vision_token_layer21,SKIP,,Checkpoint not found,,
+Molmo-V1,vision_token_layer27,SKIP,,Checkpoint not found,,
+Molmo-V1,query_token_layer0,FAILED,,,/root/akhil/probe_training_scripts/molmo_model_probe/results/query_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/molmo/query_token_layer0
+Molmo-V1,query_token_layer7,SKIP,,Checkpoint not found,,
+Molmo-V1,query_token_layer14,SKIP,,Checkpoint not found,,
+Molmo-V1,query_token_layer21,SKIP,,Checkpoint not found,,
+Molmo-V1,query_token_layer27,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_only,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_token_layer0,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_token_layer7,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_token_layer14,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_token_layer21,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,vision_token_layer27,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,query_token_layer0,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,query_token_layer7,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,query_token_layer14,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,query_token_layer21,SKIP,,Checkpoint not found,,
+Qwen2.5-VL-7B,query_token_layer27,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_only,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_token_layer0,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_token_layer8,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_token_layer16,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_token_layer24,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,vision_token_layer31,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,query_token_layer0,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,query_token_layer8,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,query_token_layer16,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,query_token_layer24,SKIP,,Checkpoint not found,,
+Llama-3.2-11B-Vision,query_token_layer31,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_only,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_token_layer0,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_token_layer8,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_token_layer16,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_token_layer24,SKIP,,Checkpoint not found,,
+Phi4-VL,vision_token_layer31,SKIP,,Checkpoint not found,,
+Phi4-VL,query_token_layer0,SKIP,,Checkpoint not found,,
+Phi4-VL,query_token_layer8,SKIP,,Checkpoint not found,,
+Phi4-VL,query_token_layer16,SKIP,,Checkpoint not found,,
+Phi4-VL,query_token_layer24,SKIP,,Checkpoint not found,,
+Phi4-VL,query_token_layer31,SKIP,,Checkpoint not found,,
+SmolVLM2-2.2B,vision_only,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_only/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_only
+SmolVLM2-2.2B,vision_token_layer0,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_token_layer0
+SmolVLM2-2.2B,vision_token_layer6,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_token_layer6/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_token_layer6
+SmolVLM2-2.2B,vision_token_layer12,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_token_layer12/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_token_layer12
+SmolVLM2-2.2B,vision_token_layer18,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_token_layer18/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_token_layer18
+SmolVLM2-2.2B,vision_token_layer23,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/vision_token_layer23/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/vision_token_layer23
+SmolVLM2-2.2B,query_token_layer0,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer0/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/query_token_layer0
+SmolVLM2-2.2B,query_token_layer6,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer6/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/query_token_layer6
+SmolVLM2-2.2B,query_token_layer12,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer12/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/query_token_layer12
+SmolVLM2-2.2B,query_token_layer18,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer18/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/query_token_layer18
+SmolVLM2-2.2B,query_token_layer23,SUCCESS,,,/root/akhil/probe_training_scripts/smolvlm_model_probe/results/query_token_layer23/probe_model.pt,/root/akhil/probe_analysis/results/smolvlm/query_token_layer23

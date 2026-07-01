@@ -1,0 +1,410 @@
+ ====================================================================================================                                               
+     Qwen2.5-VL-7B - 10 HALLUCINATION EXAMPLES
+    ====================================================================================================
+
+    Example 1:
+      Question ID: question_comb_1012
+      Image: hallusionbench_math_14_0.png
+      Question: If angle BAF equals to angle CAF, is CF equal to BF? Please answer yes or no.
+      Ground Truth: no...
+      Model Answer: Yes....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 2:
+      Question ID: question_comb_1029
+      Image: AMBER_546.jpg
+      Question: Is there a beach in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is a beach in the image. The person is lying on a surfboard in the water near the shore, which suggests that they are at
+     a beach....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 3:
+      Question ID: question_comb_1035
+      Image: pope_2741.jpg
+      Question: Is there a sports ball in the image?
+      Ground Truth: yes...
+      Model Answer: No, there is no sports ball visible in the image. The image shows a baseball player at bat, but the ball itself is not in the
+    frame....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 4:
+      Question ID: question_comb_1036
+      Image: hallusionbench_video_11_0.png
+      Question: According to the positive sequence of the images, Is this man throwing a woman into the toilet? Answer in one word.
+      Ground Truth: yes...
+      Model Answer: No....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 5:
+      Question ID: question_comb_1048
+      Image: mme_count_000000427034.jpg
+      Question: Are there a total of two dogs in the picture? Please answer yes or no.
+      Ground Truth: No...
+      Model Answer: yes...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 6:
+      Question ID: question_comb_1099
+      Image: hallusionbench_figure_10_1.png
+      Question: Is there any meat in this figure?
+      Ground Truth: yes...
+      Model Answer: No, there is no meat in the main part of the image. The image shows a variety of fresh vegetables and fruits, including broccoli,
+    bell peppers, tomato...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 7:
+      Question ID: question_comb_1101
+      Image: hallusionbench_video_7_1.png
+      Question: According to the positive sequence of the images, is the plug put into the power outlet?
+      Ground Truth: no...
+      Model Answer: Yes, according to the positive sequence of the images, the plug is being put into the power outlet. The sequence shows:
+
+    1. The plug is not yet connec...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 8:
+      Question ID: question_comb_1105
+      Image: hallusionbench_math_2_1.png
+      Question: Is angleA + angleB +angleC < 180?
+      Ground Truth: no...
+      Model Answer: To determine if the sum of angles A, B, and C is less than 180 degrees, we need to understand the properties of the shape in the
+    image.
+
+    The shape app...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 9:
+      Question ID: question_comb_1119
+      Image: pope_2929.jpg
+      Question: Is there a truck in the image?
+      Ground Truth: yes...
+      Model Answer: No, there is no truck visible in the image. The image shows an airplane parked at a gate with a jet bridge connected to it. There
+    are also some ground...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 10:
+      Question ID: question_comb_1122
+      Image: hallusionbench_figure_17_0.png
+      Question: Are all the items in this figure fried chicken?
+      Ground Truth: yes...
+      Model Answer: No, not all the items in the image appear to be fried chicken. The image shows a basket filled with what looks like fried chicken
+    pieces, but there is...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+
+    ====================================================================================================
+     Gemma 3 12B - 10 HALLUCINATION EXAMPLES
+    ====================================================================================================
+
+    Example 1:
+      Question ID: question_comb_10
+      Image: AMBER_348.jpg
+      Question: Is the forest withering in this image?
+      Ground Truth: n, o...
+      Model Answer: Let's analyze the image to determine if the forest is withering.
+
+    **Observations:**
+
+    *   **Trees:** The trees in the background appear to be healthy a...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 2:
+      Question ID: question_comb_100
+      Image: haloquest_1937.png
+      Question: What does Donald Trump's hat say?
+      Ground Truth: He does not have a hat; He is without a hat; A hat is missing from the image...
+      Model Answer: Based on the image, Donald Trump's hat appears to say "**Make America Great Again**". It's the iconic slogan from his presidential
+    campaigns....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 3:
+      Question ID: question_comb_1012
+      Image: hallusionbench_math_14_0.png
+      Question: If angle BAF equals to angle CAF, is CF equal to BF? Please answer yes or no.
+      Ground Truth: no...
+      Model Answer: Yes.
+
+    **Explanation**
+
+    Here's the reasoning:
+
+    1. **Angle Bisector:** The line segment AF is an angle bisector of angle BAC because angle BAF = angle C...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 4:
+      Question ID: question_comb_1022
+      Image: pope_2202.jpg
+      Question: Is there a chair in the image?
+      Ground Truth: no...
+      Model Answer: Yes, there is a chair in the image. It appears to be a beach chair that the woman is holding onto while in the water....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 5:
+      Question ID: question_comb_1029
+      Image: AMBER_546.jpg
+      Question: Is there a beach in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is a beach in the image. You can see the sandy beach in the foreground where the boy is bodyboarding. The water and
+    waves are also present,...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 6:
+      Question ID: question_comb_1037
+      Image: AMBER_132.jpg
+      Question: Is there a cloud in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there appears to be a cloud in the image. It's visible in the background, slightly above and to the right of the players....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 7:
+      Question ID: question_comb_1048
+      Image: mme_count_000000427034.jpg
+      Question: Are there a total of two dogs in the picture? Please answer yes or no.
+      Ground Truth: No...
+      Model Answer: Yes....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 8:
+      Question ID: question_comb_1049
+      Image: AMBER_899.jpg
+      Question: Is the sea small in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the sea appears relatively small in the image. It forms a thin horizontal line in the background, behind the tall grass and
+    the person taking a p...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 9:
+      Question ID: question_comb_1057
+      Image: hallusionbench_illusion_6_0.png
+      Question: Is the vertical line in the middle actually curved?
+      Ground Truth: no...
+      Model Answer: Yes, the vertical line on the left side of the image appears to be curved. This is a visual illusion created by the surrounding
+    distorted and noisy pa...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 10:
+      Question ID: question_comb_106
+      Image: AMBER_875.jpg
+      Question: Is the mountain tall in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the mountain in the image appears to be quite tall. Here's why:
+
+    *   **Scale:** The mountain dominates the background, taking up a significant po...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+
+    ====================================================================================================
+     Molmo-7B - 10 HALLUCINATION EXAMPLES
+    ====================================================================================================
+
+    Example 1:
+      Question ID: question_comb_10
+      Image: AMBER_348.jpg
+      Question: Is the forest withering in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the forest in this image does appear to be withering. The trees visible in the background show signs of decline. Their foliage
+     is sparse and lack...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 2:
+      Question ID: question_comb_1003
+      Image: AMBER_416.jpg
+      Question: Is there direct contact between the rail and forest?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is direct contact between the rail and forest in this image. The train tracks run through a wooded area, and the forest
+    appears to grow rig...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 3:
+      Question ID: question_comb_1006
+      Image: pope_836.jpg
+      Question: Is there an apple in the image?
+      Ground Truth: no...
+      Model Answer: Yes, there is an apple in the image. It's located on the table in front of the woman. The table also contains other items like a
+    glass of water, a pit...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 4:
+      Question ID: question_comb_1029
+      Image: AMBER_546.jpg
+      Question: Is there a beach in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is a beach in this image. The scene shows a young boy lying on a surfboard in shallow water, which is characteristic of
+    a beach setting. Th...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 5:
+      Question ID: question_comb_1035
+      Image: pope_2741.jpg
+      Question: Is there a sports ball in the image?
+      Ground Truth: yes...
+      Model Answer: No, there isn't a sports ball visible in this image. The scene shows a baseball player, likely Buster Posey, in his batting stance.
+     He's holding a bat...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 6:
+      Question ID: question_comb_1036
+      Image: hallusionbench_video_11_0.png
+      Question: According to the positive sequence of the images, Is this man throwing a woman into the toilet? Answer in one word.
+      Ground Truth: yes...
+      Model Answer: No...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 7:
+      Question ID: question_comb_1039
+      Image: AMBER_969.jpg
+      Question: Is the forest withered in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the forest in this image appears to be withered. The trees visible in the background have thin, sparse branches and leaves,
+    giving them a dry and...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 8:
+      Question ID: question_comb_1050
+      Image: AMBER_211.jpg
+      Question: Is there a lounge in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is a lounge in this image. The truck has a black rack on top that includes a lounge chair. This type of setup is common
+    for beachgoers who ...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 9:
+      Question ID: question_comb_1056
+      Image: AMBER_350.jpg
+      Question: Is there direct contact between the cup and wall?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is direct contact between the cup and wall. The cup is positioned against the wall, with its handle touching the
+    surface. This arrangement ...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 10:
+      Question ID: question_comb_1057
+      Image: hallusionbench_illusion_6_0.png
+      Question: Is the vertical line in the middle actually curved?
+      Ground Truth: no...
+      Model Answer: Yes, the vertical line on the left side of the QR code is actually curved. While QR codes typically have straight edges, this
+    particular one features ...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+
+    ====================================================================================================
+     LLaVA-NeXT - 10 HALLUCINATION EXAMPLES
+    ====================================================================================================
+
+    Example 1:
+      Question ID: question_comb_10
+      Image: AMBER_348.jpg
+      Question: Is the forest withering in this image?
+      Ground Truth: n, o...
+      Model Answer: The image shows a person standing next to a horse, and there is a forest in the background. The forest appears to be lush and
+    green, suggesting that i...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 2:
+      Question ID: question_comb_1012
+      Image: hallusionbench_math_14_0.png
+      Question: If angle BAF equals to angle CAF, is CF equal to BF? Please answer yes or no.
+      Ground Truth: no...
+      Model Answer: Yes....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 3:
+      Question ID: question_comb_1017
+      Image: AMBER_408.jpg
+      Question: Is there direct contact between the wall and bicycle?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is direct contact between the wall and the bicycle. The bicycle is leaning against the wall, with the handlebars and
+    possibly the frame mak...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 4:
+      Question ID: question_comb_1029
+      Image: AMBER_546.jpg
+      Question: Is there a beach in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, there is a beach in the image. The person is lying on a surfboard in the ocean, which is a common beach activity....
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 5:
+      Question ID: question_comb_1031
+      Image: AMBER_326.jpg
+      Question: Is the banana complete in this image?
+      Ground Truth: n, o...
+      Model Answer: In the image, the banana appears to be partially eaten, with a significant portion of it still remaining. The monkey is holding the
+     banana in its hand...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 6:
+      Question ID: question_comb_1036
+      Image: hallusionbench_video_11_0.png
+      Question: According to the positive sequence of the images, Is this man throwing a woman into the toilet? Answer in one word.
+      Ground Truth: yes...
+      Model Answer: No...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 7:
+      Question ID: question_comb_1039
+      Image: AMBER_969.jpg
+      Question: Is the forest withered in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the forest in the image appears to be withered. The trees have sparse foliage, and the overall coloration of the vegetation is
+     dry and brown, whi...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 8:
+      Question ID: question_comb_1049
+      Image: AMBER_899.jpg
+      Question: Is the sea small in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the sea appears to be relatively small in this image. The person is standing in a field of tall grass, and the sea is visible
+    in the background, ...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 9:
+      Question ID: question_comb_1057
+      Image: hallusionbench_illusion_6_0.png
+      Question: Is the vertical line in the middle actually curved?
+      Ground Truth: no...
+      Model Answer: The image you've provided appears to be a close-up of a QR code. QR codes are designed to be square with a grid of squares that
+    contain information. T...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+    Example 10:
+      Question ID: question_comb_106
+      Image: AMBER_875.jpg
+      Question: Is the mountain tall in this image?
+      Ground Truth: n, o...
+      Model Answer: Yes, the mountain in the image appears to be quite tall. It's a prominent feature in the background, providing a dramatic backdrop
+    to the road and the...
+      → HALLUCINATED ❌
+    ----------------------------------------------------------------------------------------------------
+
+⏺ Perfect! Here's a summary of the hallucination examples:                                                      12:01 AM  claude-sonnet-4-5-20250929
+
+  📊 10 HALLUCINATION EXAMPLES PER MODEL
+
+  Common Hallucination Patterns Across All Models:
+
+  1. Yes/No Disagreements - Models answer opposite to ground truth
+    - Question: "Is there a beach?" → GT: "no" → Model: "Yes, there is a beach"
+  2. Object Existence Errors - Claiming objects exist/don't exist incorrectly
+    - Question: "Is there a sports ball?" → GT: "yes" → Model: "No, there is no sports ball"
+  3. Mathematical/Geometric Errors - Wrong geometric conclusions
+    - Question: "Is CF equal to BF?" → GT: "no" → Model: "Yes"
+  4. Fabricated Details - Adding non-existent items
+    - Question: "What does Trump's hat say?" → GT: "He doesn't have a hat" → Model: "Make America Great Again"
+  5. Visual Misinterpretation - Incorrectly describing visual attributes
+    - Question: "Is the forest withering?" → GT: "no" → Model: "Yes, the forest appears to be withering"
+
+  Key Observations:
+
+  - Qwen2.5-VL-7B (6.06% error): Fewest hallucinations, mostly on complex yes/no questions
+  - Gemma 3 12B (10.58% error): More verbose explanations, sometimes over-interprets
+  - Molmo-7B (12.05% error): Tends to hallucinate visual details and object existence
+  - LLaVA-NeXT (13.59% error): Most hallucinations, especially on binary questions and visual attributes
+
+  All examples show the models being confidently wrong - providing detailed explanations for incorrect answers,
+   which makes these hallucinations particularly problematic for real-world applications.
+
+  The manually reviewed datasets with these flagged hallucinations are now ready for your HALP research! 

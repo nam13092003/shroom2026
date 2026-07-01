@@ -1,0 +1,15 @@
+{
+  "probe_name": "SmolVLM2-2.2B/vision_token_layer6",
+  "model": "SmolVLM2-2.2B",
+  "probe_dir": "vision_token_layer6",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_6",
+  "overall_auroc": 0.686809829706611,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201859"
+}

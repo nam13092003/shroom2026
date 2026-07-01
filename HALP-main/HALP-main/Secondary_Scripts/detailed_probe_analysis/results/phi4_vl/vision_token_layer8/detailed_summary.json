@@ -1,0 +1,15 @@
+{
+  "probe_name": "Phi4-VL/vision_token_layer8",
+  "model": "Phi4-VL",
+  "probe_dir": "vision_token_layer8",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_8",
+  "overall_auroc": 0.7821055615228547,
+  "test_samples": 1954,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_231326"
+}

@@ -1,0 +1,15 @@
+{
+  "probe_name": "Qwen2.5-VL-7B/vision_token_layer_3n_4",
+  "model": "Qwen2.5-VL-7B",
+  "probe_dir": "vision_token_layer_3n_4",
+  "embedding_type": "vision_token_representation",
+  "layer_name": "layer_21",
+  "overall_auroc": 0.6624699264159326,
+  "test_samples": 2000,
+  "analysis_types": [
+    "basic_hallucination_type",
+    "domain_type",
+    "answer_type"
+  ],
+  "timestamp": "20251005_201803"
+}

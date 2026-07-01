@@ -1,0 +1,9 @@
+{
+  "model_name": "SmolVLM2-2.2B",
+  "embedding_type": "vision_only_representation",
+  "layer_name": null,
+  "probe_dir": "vision_only",
+  "overall_auroc": 0.7237679234072131,
+  "test_samples": 2000,
+  "timestamp": "20251005_161630"
+}
